@@ -4,11 +4,11 @@ let Schema = mongoose.Schema
 
 const songSchema = new Schema({
     name: String,
-    numListeners: Number,
-    updatedAt: Date,
+    playCount: Number,
+    bpm: Number,
     spotifyLink: String,
     lastFm: String,
-    album: { type: Schema.Types.ObjectId, ref: 'Album' }
+    artist: { type: Schema.Types.ObjectId, ref: 'Artist' }
 })
 
 const Song = mongoose.model("Song", songSchema)
