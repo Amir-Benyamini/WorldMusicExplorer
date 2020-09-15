@@ -6,3 +6,11 @@ $('#countryInpBtn').on('click', function () {
 	
 	Manager.getSongByFilters(countryInput, PopularInput, radioValue)
 })
+
+
+// $('#like').on('click', function(){
+
+// 	const likedSong = $('dsfsd').val
+// 	Manager.saveSongToDB(likedSong)
+// })
+
