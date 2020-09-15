@@ -1,0 +1,23 @@
+{
+  "name": "worldmusicexplorer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amir-Benyamini/WorldMusicExplorer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Amir-Benyamini/WorldMusicExplorer/issues"
+  },
+  "homepage": "https://github.com/Amir-Benyamini/WorldMusicExplorer#readme",
+  "dependencies": {
+    "handlebars": "^4.7.6",
+    "jquery": "^3.5.1"
+  }
+}
