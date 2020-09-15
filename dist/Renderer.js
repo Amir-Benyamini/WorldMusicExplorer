@@ -27,7 +27,11 @@ class Renderer {
 	}
 
 	renderMyPlaylist(myPlaylist) {
-
+		$(".songs").empty()
+		const source = $("#my-playlist-template").html()
+		const template = Handlebars.compile(source)
+		const newHTML = template({ myPlaylist })
+		$('.songs').append(newHTML);
 		this.renderSongs(this.songs)
 	}
 }
