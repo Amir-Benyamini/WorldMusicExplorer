@@ -68,6 +68,9 @@
 		  <div class="song">{{song}}</div>
 		  <div class="artist">{{artist}}</div>
 		  <div class="album">{{album}}</div>
+		  <button id="like" class="#EF9A9A red lighten-3">
+			<i class="material-icons">favorite</i>
+		  </button>
 		</div>
 		{{/if}}
 		<div class="song">	
@@ -79,6 +82,29 @@
 	</script>
 
 
+
+		<script id="my-playlist-template" type="text/x-handlebars-template">
+		{{#each songs}}
+		{{#if isNowPlaying}}
+		<div class="now-playing">
+		  <div class="song">{{song}}</div>
+		  <div class="artist">{{artist}}</div>
+		  <div class="album">{{album}}</div>
+		  <button id="dislike" class="#EF9A9A red lighten-3">
+			<i class="material-icons">close</i>
+		  </button>
+		</div>
+		{{/if}}
+		<div class="song">	
+		  <div class = "title"> {{title}}</div>
+		  <div class="artist">{{artist}}</div>
+		  <div class="album">{{album}}</div>
+		  <button id="dislike" class="#EF9A9A red lighten-3">
+			<i class="material-icons">close</i>
+		  </button>
+		</div>
+	{{/each}}
+	</script>
 
 
 		<script src="../node_modules/materialize-css/dist/js/materialize.js"></script>
