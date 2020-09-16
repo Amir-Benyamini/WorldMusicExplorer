@@ -15,7 +15,7 @@
 	<div id="search">
 
 		<div class="row">
-			<select name="countries" id="countryInp" class="browser-default col s9" >
+			<select name="countries" id="countryInp" class="browser-default col s9">
 
 			</select>
 
@@ -77,18 +77,18 @@
 		{{#if isNowPlaying}}
 		<div class="now-playing">
 			<iframe src="https://open.spotify.com/embed/track/{{spotifyId}}" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-		  <div class="title">{{song}}</div>
-		  <div class="artist">{{artist}}</div>
-		  <div class="album">{{album}}</div>
+		  <div class="title">{{name}}</div>
+		  <div class="artist">{{artist.name}}</div>
+		  <div class="album">{{album.name}}</div>
 		  <button id="like" class="#EF9A9A red lighten-3">
 			<i class="material-icons">favorite</i>
 		  </button>
 		</div>
 		{{else}}
 		<div class="song">	
-		  <div class = "title"> {{song}}</div>
-		  <div class="artist">{{artist}}</div>
-		  <div class="album">{{album}}</div>
+		  <div class = "title"> {{name}}</div>
+		  <div class="artist">{{artist.name}}</div>
+		  <div class="album">{{album.name}}</div>
 		</div>
 		{{/if}}
 		{{/each}}
@@ -100,18 +100,19 @@
 		{{#each myPlaylist}}
 		{{#if isNowPlaying}}
 		<div class="now-playing">
-			<iframe src="https://open.spotify.com/embed/track/{{spotifyId}}" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>		  <div class="title">{{song}}</div>
-		  <div class="artist">{{artist}}</div>
-		  <div class="album">{{album}}</div>
+			<iframe src="https://open.spotify.com/embed/track/{{spotifyId}}" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>	
+		  <div class="title">{{name}}</div>
+		  <div class="artist">{{artist.name}}</div>
+		  <div class="album">{{album.name}}</div>
 		  <button id="dislike" class="#EF9A9A red lighten-3">
 			<i class="material-icons">close</i>
 		  </button>
 		</div>
 		{{else}}
 		<div class="song">	
-		  <div class = "title"> {{song}}</div>
-		  <div class="artist">{{artist}}</div>
-		  <div class="album">{{album}}</div>
+		  <div class = "title"> {{name}}</div>
+		  <div class="artist">{{artist.name}}</div>
+		  <div class="album">{{album.name}}</div>
 		  <button id="dislike" class="#EF9A9A red lighten-3">
 			<i class="material-icons">close</i>
 		  </button>
