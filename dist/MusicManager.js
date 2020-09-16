@@ -1,10 +1,77 @@
 const countries = ["algeria", "afganistan", "Bahamans"]
 const dummySongs =
-	[{ song: 'toxicity', artist: 'system of a down', album: 'toxicity', released: 2001 },
-	{ song: 'i am the walrus', artist: 'the beatles', album: 'magical mystery tour', released: 1967 },
-	{ song: 'tell me baby', artist: 'red hot chili peppers', album: 'stadium arcadium', released: 2006 },
-	{ song: 'ride', artist: 'twenty one pilots', album: 'blurryface', released: 2015 }]
+	[{
+		name: "Billie Jean",
+		playCount: 1223242432,
+		bpm: 0,
+		spotifyId: "0dQSOy6CUlC4cS9AjfC904",
+		lastFmLink: "https://www.last.fm/music/Michael+Jackson/_/Billie+Jean",
+		youtubeId:"Zi_XLOBDo_Y",
+		album: {
+			name: "Thriller",
+			releaseDate:"30-11-1982",
+			artist:{
+				name:"Michael Jackson",
+				country:"United States",
+				wikipediaSummary:"https://en.wikipedia.org/wiki/Michael_Jackson"
+			}
+		}
+	},
+	{
+		name: "Billie Jean",
+		playCount: 1223242432,
+		bpm: 0,
+		spotifyId: "0dQSOy6CUlC4cS9AjfC904",
+		lastFmLink: "https://www.last.fm/music/Michael+Jackson/_/Billie+Jean",
+		youtubeId:"Zi_XLOBDo_Y",
+		album: {
+			name: "Thriller",
+			releaseDate:"30-11-1982",
+			artist:{
+				name:"Michael Jackson",
+				country:"United States",
+				wikipediaSummary:"https://en.wikipedia.org/wiki/Michael_Jackson"
+			}
+		}
+	},
+	{
+		name: "Billie Jean",
+		playCount: 1223242432,
+		bpm: 0,
+		spotifyId: "0dQSOy6CUlC4cS9AjfC904",
+		lastFmLink: "https://www.last.fm/music/Michael+Jackson/_/Billie+Jean",
+		youtubeId:"Zi_XLOBDo_Y",
+		album: {
+			name: "Thriller",
+			releaseDate:"30-11-1982",
+			artist:{
+				name:"Michael Jackson",
+				country:"United States",
+				wikipediaSummary:"https://en.wikipedia.org/wiki/Michael_Jackson"
+			}
+		}
+	},
+	{
+		name: "Billie Jean",
+		playCount: 1223242432,
+		bpm: 0,
+		spotifyId: "0dQSOy6CUlC4cS9AjfC904",
+		lastFmLink: "https://www.last.fm/music/Michael+Jackson/_/Billie+Jean",
+		youtubeId:"Zi_XLOBDo_Y",
+		album: {
+			name: "Thriller",
+			releaseDate:"30-11-1982",
+			artist:{
+				name:"Michael Jackson",
+				country:"United States",
+				wikipediaSummary:"https://en.wikipedia.org/wiki/Michael_Jackson"
+			}
+		}
+	}
+]
 
+
+	
 class MusicManager {
 	constructor() {
 		this.songs = []
