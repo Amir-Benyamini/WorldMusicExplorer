@@ -29,11 +29,14 @@ class DBManager {
   async arrangeSongObjects(songsData) {
     const songs = []
     for (let s of songsData) {
-      let album = new this.db.album({
-        name: s.album.name,
-        releaseDate: s.album.releaseDate,
-        artist: s.artist,
-      })
+      let album = {}
+      if (s.album) {
+        album = new this.db.album({
+          name: s.album.name,
+          releaseDate: s.album.releaseDate,
+          artist: s.artist,
+        })
+      }
       let song = new this.db.song({
         name: s.name,
         playCount: s.playCount,
@@ -88,10 +91,19 @@ class DBManager {
   }
   async getArtistByCountry(country) {
     try {
-      const artists = await this.db.country
+      const data = await this.db.country
         .findOne({ name: country })
         .populate("artists")
-      return artists.artists
+
+      let response
+      if (data.artists) {
+        response = data.artists
+      } else {
+        console.log("issue with: " + data)
+        response = []
+      }
+
+      return response
     } catch (err) {
       console.log(err)
     }
