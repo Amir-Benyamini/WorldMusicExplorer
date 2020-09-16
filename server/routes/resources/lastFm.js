@@ -42,13 +42,17 @@ const getLastFmTrackData = async function (artist, songsLimit = 1) {
   const response = await axios.get(
     `http://ws.audioscrobbler.com/2.0/?method=artist.gettoptracks&artist=${queryArtistName}&api_key=${lastFmApiKey}&format=json&limit=${songsLimit}`
   )
-  if (response.data.toptracks.track) {
+  if (response.data.error) {
+    console.log({error: response.data.message,
+    artist: artist})
+    return null
+  } else {
     for (let track of response.data.toptracks.track) {
       let data = {
         name: track.name,
         playCount: track.playcount,
         lastFmLink: track.url,
-        artist: artist
+        artist: artist,
       }
       tracks.push(data)
     }
@@ -59,9 +63,11 @@ const getLastFmTrackData = async function (artist, songsLimit = 1) {
 const getTopTracksOfArtist = async function (artists, songslimit) {
   const tracklist = []
   for (let artist of artists) {
-    let tracks = await getLastFmTrackData(artist,songslimit)
-    tracks = await getExternalAppIds(tracks)
-    tracklist.push(...tracks)
+    let tracks = await getLastFmTrackData(artist, songslimit)
+    if (tracks) {
+      tracks = await getExternalAppIds(tracks)
+      tracklist.push(...tracks)
+    }
   }
   return tracklist
 }
