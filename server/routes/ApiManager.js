@@ -28,10 +28,12 @@ class ApiManager {
   }
 
   async getCountriesFromDB() {
-    return await dbManager.getAllCountries()
+    let countries = await dbManager.getAllCountries()
+    countries = countries.map(c => c.name)
+    return countries
   }
 
-  async getPopularSongsInCountry(country, res){
+  async getPopularSongsInCountry(country, res) {
     // using lastFm route
     res.send("this route is not ready yet")
   }
