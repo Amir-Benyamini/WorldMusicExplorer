@@ -53,3 +53,6 @@ $('.songs').on('click', '#dislike', function () {
 
 })
 
+$('#next').on('click', function(){
+	manager.nextSong()
+})
