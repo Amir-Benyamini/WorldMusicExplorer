@@ -5,11 +5,11 @@ class Renderer {
 	}
 
 	renderCountries(countries) {
-		$("countryInp").empty()
+		$("#countryInp").empty()
 		const source = $("#countries-template").html()
 		const template = Handlebars.compile(source)
 		const newHTML = template({ countries })
-		$('.countryInp').append(newHTML);
+		$('#countryInp').append(newHTML);
 	}
 
 	renderSongs(songs) {

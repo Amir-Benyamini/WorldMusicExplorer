@@ -18,6 +18,6 @@ $('#playlist').on('click', function(){
 
 // on page load add countries to select dropdown
 
-$(document).ready(async function () {
-
+$(document).ready(function () {
+	renderer.renderCountries(countries)
 })
