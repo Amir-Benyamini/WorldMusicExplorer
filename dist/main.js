@@ -1,24 +1,26 @@
 const manager = new MusicManager
 const renderer = new Renderer
 //pass the filters values on user search and make a get request to the server
-$('#countryInpBtn').on('click', function () {
+$('#countryInpBtn').on('click',async function () {
 	const countryInput = $('#countryInp').val()
-	const PopularInput = $('#popularInp').is(':checked')
+	// const PopularInput = $('#popularInp').is(':checked')
 	const bpm = $("input[name='bpm']:checked").val();
-	// const songsList = manager.getSongByFilters(countryInput, PopularInput, bpm)
-	const songsList = manager.getSongByFilters(getDummySongs(), bpm)
+// const songsList = manager.getSongByFilters(getDummySongs(), bpm)
+
+	const songsList = await manager.getSongByFilters(countryInput, bpm)
 	renderer.renderSongs(songsList)
 
 })
 
-$('#playlist').on('click', function () {
-	const songsList = manager.getSongsFromDB(getDummySongs())
+$('#playlist').on('click',async function () {
+	const songsList =await manager.getSongsFromDB()
 	renderer.renderMyPlaylist(songsList)
 })
 
 // on page load add countries to select dropdown
 
-$(document).ready(function () {
+$(document).ready(async function () {
+	const countries = await manager.getCountries()
 	renderer.renderCountries(countries)
 })
 
@@ -29,7 +31,7 @@ $('.songs').on('click', '#like', function () {
 	manager.songs.forEach(song => {
 		if (songId === song._id) {
 			manager.saveSongToDB(song)
-			alert(`${song.name} was added to your playlist!`)
+		
 		} else {
 			console.log('error')
 		}
