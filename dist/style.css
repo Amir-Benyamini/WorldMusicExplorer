@@ -1,0 +1,21 @@
+body{
+  display: grid;
+  grid-template-rows: 1fr 10fr 1fr;
+  grid-template-columns: 1fr 2fr;
+  grid-template-areas: 
+  "search-bar search-bar"
+  "list now-playing"
+  "control-bar control-bar";
+}
+
+#search{
+    grid-area: search-bar;
+}
+
+.now-playing-container{
+    grid-area: now-playing;
+}
+
+.songs{
+    grid-area: list;
+}
