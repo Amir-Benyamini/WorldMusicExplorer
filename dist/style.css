@@ -1,21 +1,90 @@
-body{
+* {
+  color: white;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
   display: grid;
   grid-template-rows: 1fr 10fr 1fr;
   grid-template-columns: 1fr 2fr;
-  grid-template-areas: 
-  "search-bar search-bar"
-  "list now-playing"
-  "control-bar control-bar";
+  grid-template-areas:
+    "search-bar search-bar"
+    "list now-playing"
+    "control-bar control-bar";
+
+  grid-gap: 10px;
+  padding: 10px;
+  animation: slide-right 200s linear infinite;
+  background-image: url("/assets/music_notes.png");
+  background-repeat: repeat-x;
+  background-position: 0 0;
+  background-color: rgb(34, 52, 61);
+  background-size: cover;
 }
 
-#search{
-    grid-area: search-bar;
+@keyframes slide-right {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 1280px 0;
+  }
 }
 
-.now-playing-container{
-    grid-area: now-playing;
+button,input{
+outline: none;
+box-shadow: 1px 1px 5px black;
+background-color: rgb(54, 72, 83);
+border-radius: 50%;
+width: 50px;
+height: 50px;
 }
 
-.songs{
-    grid-area: list;
+button:hover,input:hover{
+    cursor: pointer;
+}
+
+#countryInp{
+    width: 100%;
+    height: 50px;
+}
+
+#search {
+  grid-area: search-bar;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+  "select select search"
+  "chill party popular";
+}
+
+s#countryInp{
+    grid-area: select;
+}
+
+#countryInpBtn{
+    grid-area: search;
+}
+
+#bpmSlow{
+    grid-area: chill;
+}
+
+#bpmFast{
+    grid-area: party;
+}
+
+#popularInp{
+    grid-area: popular;
+}
+
+.now-playing-container {
+  grid-area: now-playing;
+}
+
+.songs {
+  grid-area: list;
+  background-color: rgb(73, 80, 82);
 }
