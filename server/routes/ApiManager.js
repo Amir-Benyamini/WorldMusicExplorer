@@ -27,7 +27,7 @@ class ApiManager {
         : artists.splice(maxSongsPerResponse + bufferSongsLimit)
       songsLimit = 1
     }
-    console.log(songsLimit, artists.length)
+
     const artistsTopTracks = await lastFm.getTopTracksOfArtist(
       artists,
       songsLimit
