@@ -5,5 +5,6 @@ module.exports = {
   spotifyClientId: process.env.SPOTIFY_CLIENT_ID,
   spotifySecretId: process.env.SPOTIFY_CLIENT_SECRET,
   lastFmApiKey: process.env.LASTFM_API_KEY,
-  maxSongsPerPage:process.env.MAX_SONGS_PER_PAGE,
+  maxSongsPerResponse:process.env.MAX_SONGS_PER_PAGE,
+  bufferSongsLimit:process.env.BUFFER_SONGS_LIMIT
 }
