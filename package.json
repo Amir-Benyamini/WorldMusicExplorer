@@ -18,10 +18,10 @@
   },
   "homepage": "https://github.com/Amir-Benyamini/WorldMusicExplorer#readme",
   "dependencies": {
+    "express": "^4.17.1",
     "handlebars": "^4.7.6",
     "jquery": "^3.5.1",
     "materialize-css": "^1.0.0-rc.2",
-    "express": "^4.17.1",
     "mongoose": "^5.10.5"
   }
 }
