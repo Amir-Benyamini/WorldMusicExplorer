@@ -31,16 +31,16 @@
 
 			<div class="col l1 offset-l8">
 				<label>
-					<input class="with-gap" name="bpm" type="radio" id="bpmSlow" value="bpmSlow" />
-					<span>Slow</span>
+					<input class="with-gap" name="bpm" type="radio" id="bpmSlow" value="slow" />
+					<span>Chill</span>
 				</label>
 
 			</div>
 
 			<div class="col l1">
 				<label>
-					<input class="with-gap" name="bpm" type="radio" id="bpmFast" value="bpmFast" />
-					<span>Fast</span>
+					<input class="with-gap" name="bpm" type="radio" id="bpmFast" value="fast" />
+					<span>Party</span>
 				</label>
 
 			</div>
@@ -61,7 +61,7 @@
 		</div>
 	</div>
 
-	<div class="now-playing"></div>
+	<div class="now-playing-container"></div>
 	<div class="songs"></div>
 
 	<script id="countries-template" type="text/x-handlebars-template">
@@ -74,23 +74,17 @@
 
 	<script id="songs-template" type="text/x-handlebars-template">
 		{{#each songs}}
-		{{#if isNowPlaying}}
-		<div class="now-playing">
+		<div data-id="{{_id}}" class="song {{#if isNowPlaying}} now-playing{{/if}}">
+{{#if isNowPlaying}}
 			<iframe src="https://open.spotify.com/embed/track/{{spotifyId}}" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-		  <div class="title">{{name}}</div>
-		  <div class="artist">{{artist.name}}</div>
-		  <div class="album">{{album.name}}</div>
-		  <button id="like" class="#EF9A9A red lighten-3">
-			<i class="material-icons">favorite</i>
-		  </button>
-		</div>
-		{{else}}
-		<div class="song">	
-		  <div class = "title"> {{name}}</div>
-		  <div class="artist">{{artist.name}}</div>
-		  <div class="album">{{album.name}}</div>
-		</div>
-		{{/if}}
+				<button id="like" class="#EF9A9A red lighten-3">
+					<i class="material-icons">favorite</i>
+					</button>
+			{{/if}}
+      <div class="title">{{name}}</div>
+      <div class="artist">{{album.artist.name}}</div>
+      <div class="album">{{album.name}}</div>
+    </div>
 		{{/each}}
 		</script>
 
@@ -98,30 +92,22 @@
 
 	<script id="my-playlist-template" type="text/x-handlebars-template">
 		{{#each myPlaylist}}
-		{{#if isNowPlaying}}
-		<div class="now-playing">
-			<iframe src="https://open.spotify.com/embed/track/{{spotifyId}}" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>	
-		  <div class="title">{{name}}</div>
-		  <div class="artist">{{artist.name}}</div>
-		  <div class="album">{{album.name}}</div>
-		  <button id="dislike" class="#EF9A9A red lighten-3">
-			<i class="material-icons">close</i>
-		  </button>
-		</div>
-		{{else}}
-		<div class="song">	
-		  <div class = "title"> {{name}}</div>
-		  <div class="artist">{{artist.name}}</div>
-		  <div class="album">{{album.name}}</div>
-		  <button id="dislike" class="#EF9A9A red lighten-3">
-			<i class="material-icons">close</i>
-		  </button>
-		</div>
-		{{/if}}
+		<div data-id="{{_id}}" class="song {{#if isNowPlaying}} now-playing{{/if}}">
+{{#if isNowPlaying}}
+			<iframe src="https://open.spotify.com/embed/track/{{spotifyId}}" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+			{{/if}}
+      <div class="title">{{name}}</div>
+      <div class="artist">{{album.artist.name}}</div>
+			<div class="album">{{album.name}}</div>
+			<button id="dislike" class="#EF9A9A red lighten-3">
+				<i class="material-icons">close</i>
+				</button>
+    </div>
 		{{/each}}
 		</script>
 
-
+		
+			
 	<script src="materialize-css/dist/js/materialize.js"></script>
 	<script src="handlebars/dist/handlebars.js"></script>
 	<script src="jquery/dist/jquery.js"></script>
