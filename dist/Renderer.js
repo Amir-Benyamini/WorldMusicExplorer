@@ -18,6 +18,9 @@ class Renderer {
 		const template = Handlebars.compile(source)
 		const newHTML = template({ songs })
 		$('.songs').append(newHTML);
+
+		const nowPlayingSong = songs.filter(song=>song.isNowPlaying)[0]
+		this.renderNowPlaying(nowPlayingSong)
 	}
 
 
@@ -27,5 +30,13 @@ class Renderer {
 		const template = Handlebars.compile(source)
 		const newHTML = template({ myPlaylist })
 		$('.songs').append(newHTML);
+	}
+
+	renderNowPlaying(song){
+		$(".now-playing-container").empty()
+		const source = $("#now-playing-template").html()
+		const template = Handlebars.compile(source)
+		const newHTML = template(song)
+		$(".now-playing-container").append(newHTML)
 	}
 }
