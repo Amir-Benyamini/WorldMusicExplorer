@@ -6,6 +6,11 @@ router.get("/health", function (req, res) {
   res.send("healthy")
 })
 
+router.get("/countries", async function (req, res) {
+  const countries = await apiManager.getCountriesFromDB()
+  res.send(countries)
+})
+
 router.get("/songs/:country/:popular?", async function (req, res) {
   const { country, popular } = req.params
 

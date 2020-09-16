@@ -27,7 +27,6 @@ class DBManager {
   }
 
   async arrangeSongObjects(songsData) {
-    console.log(songsData)
     const songs = []
     for (let s of songsData) {
       let album = new this.db.album({
@@ -79,20 +78,27 @@ class DBManager {
   }
   async deleteSong(songId) {
     // Should also remove the song's album to prevent irreleant data storing
+    const album = await this.db.song.findById(songId, { album: 1, _id: 0 })
+    this.db.album.findOneAndDelete({ _id: album.album }).exec((err) => {
+      err ? console.log(err) : null
+    })
+    this.db.song.findOneAndDelete({ _id: songId }).exec((err) => {
+      err ? console.log(err) : null
+    })
   }
   async getArtistByCountry(country) {
     try {
       const artists = await this.db.country
         .findOne({ name: country })
         .populate("artists")
-      return artists
+      return artists.artists
     } catch (err) {
       console.log(err)
     }
   }
 
   async getAllCountries() {
-    const countries = this.db.country.find({}, { _id: 0, __v: 0, name: 1 })
+    const countries = this.db.country.find({}, { _id: 0, __v: 0, artists: 0 })
     return countries
   }
 }
