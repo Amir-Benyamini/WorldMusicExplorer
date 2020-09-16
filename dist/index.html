@@ -78,6 +78,7 @@
 		{{#each songs}}
 		{{#if isNowPlaying}}
 		<div class="now-playing">
+			<iframe src="https://open.spotify.com/embed/track/{{spotifyId}}" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 		  <div class="title">{{song}}</div>
 		  <div class="artist">{{artist}}</div>
 		  <div class="album">{{album}}</div>
@@ -101,7 +102,7 @@
 		{{#each myPlaylist}}
 		{{#if isNowPlaying}}
 		<div class="now-playing">
-		  <div class="title">{{song}}</div>
+			<iframe src="https://open.spotify.com/embed/track/{{spotifyId}}" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>		  <div class="title">{{song}}</div>
 		  <div class="artist">{{artist}}</div>
 		  <div class="album">{{album}}</div>
 		  <button id="dislike" class="#EF9A9A red lighten-3">
