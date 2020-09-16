@@ -3,7 +3,7 @@ let Schema = mongoose.Schema
 
 const artistSchema = new Schema({
     name: String,
-    country: String,
+    country: { type: Schema.Types.ObjectId, ref: 'Country' },
     wikipediaSummary: String
 })
 
