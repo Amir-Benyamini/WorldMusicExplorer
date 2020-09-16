@@ -5,7 +5,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="style.css">
-	<link rel="stylesheet" href="../node_modules/materialize-css/dist/css/materialize.css">
+	<link rel="stylesheet" href="materialize-css/dist/css/materialize.css">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<title>World Music Explorer</title>
 </head>
@@ -51,9 +51,9 @@
 			</div>
 
 			<div>
-				<button id="like" class="col l1 #ef9a9a red lighten-3">
-					<i class="material-icons">favorite_border</i>
-				</button>
+				<button id="playlist" class="col l1 #B0BEC5 blue-grey lighten-3">
+          <i class="material-icons">playlist_play</i>
+        </button>
 			</div>
 
 		</div>
@@ -65,29 +65,39 @@
 		{{#each songs}}
 		{{#if isNowPlaying}}
 		<div class="now-playing">
-		  <div class="song">{{song}}</div>
+		  <div class="title">{{song}}</div>
 		  <div class="artist">{{artist}}</div>
 		  <div class="album">{{album}}</div>
 		  <button id="like" class="#EF9A9A red lighten-3">
 			<i class="material-icons">favorite</i>
 		  </button>
 		</div>
-		{{/if}}
+		{{else}}
 		<div class="song">	
-		  <div class = "title"> {{title}}</div>
+		  <div class = "title"> {{song}}</div>
 		  <div class="artist">{{artist}}</div>
 		  <div class="album">{{album}}</div>
 		</div>
+		{{/if}}
 	{{/each}}
 	</script>
 
 
 
 		<script id="my-playlist-template" type="text/x-handlebars-template">
-		{{#each songs}}
+		{{#each myPlaylist}}
 		{{#if isNowPlaying}}
 		<div class="now-playing">
-		  <div class="song">{{song}}</div>
+		  <div class="title">{{song}}</div>
+		  <div class="artist">{{artist}}</div>
+		  <div class="album">{{album}}</div>
+		  <button id="dislike" class="#EF9A9A red lighten-3">
+			<i class="material-icons">close</i>
+		  </button>
+		</div>
+		{{else}}
+		<div class="song">	
+		  <div class = "title"> {{song}}</div>
 		  <div class="artist">{{artist}}</div>
 		  <div class="album">{{album}}</div>
 		  <button id="dislike" class="#EF9A9A red lighten-3">
@@ -95,21 +105,13 @@
 		  </button>
 		</div>
 		{{/if}}
-		<div class="song">	
-		  <div class = "title"> {{title}}</div>
-		  <div class="artist">{{artist}}</div>
-		  <div class="album">{{album}}</div>
-		  <button id="dislike" class="#EF9A9A red lighten-3">
-			<i class="material-icons">close</i>
-		  </button>
-		</div>
 	{{/each}}
 	</script>
 
 
-		<script src="../node_modules/materialize-css/dist/js/materialize.js"></script>
-		<script src="../node_modules/handlebars/dist/handlebars.js"></script>
-		<script src="../node_modules/jquery/dist/jquery.js"></script>
+		<script src="materialize-css/dist/js/materialize.js"></script>
+		<script src="handlebars/dist/handlebars.js"></script>
+		<script src="jquery/dist/jquery.js"></script>
 		<script src="Renderer.js"></script>
 		<script src="MusicManager.js"></script>
 		<script src="main.js"></script>

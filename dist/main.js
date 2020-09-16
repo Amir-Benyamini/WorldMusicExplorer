@@ -1,16 +1,23 @@
-
+const manager = new MusicManager
+const renderer = new Renderer
 $('#countryInpBtn').on('click', function () {
 	const countryInput = $('#countryInp').val()
 	const PopularInput = $('#popularInp').is(':checked')
 	const radioValue = $("input[name='bpm']:checked").val();
 	
-	Manager.getSongByFilters(countryInput, PopularInput, radioValue)
+	// const songsList = manager.getSongByFilters(countryInput, PopularInput, radioValue)
+	const songsList = manager.getSongByFilters(dummySongs)
+	renderer.renderSongs(songsList)
+
 })
 
+$('#playlist').on('click', function(){
+  const songsList = manager.getSongsFromDB(dummySongs)
+  renderer.renderMyPlaylist(songsList)
+})
 
-// $('#like').on('click', function(){
+// on page load add countries to select dropdown
 
-// 	const likedSong = $('dsfsd').val
-// 	Manager.saveSongToDB(likedSong)
-// })
+$(document).ready(async function () {
 
+})

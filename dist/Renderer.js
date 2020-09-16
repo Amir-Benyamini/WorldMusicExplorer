@@ -12,19 +12,19 @@ class Renderer {
 		$('.songs').append(newHTML);
 	}
 
-	renderNowPlaying(song) {
-		$(".now-playing").empty()
-		const source = $("#now-playing-template").html()
-		const template = Handlebars.compile(source)
-		let song
-		for (let i in this.songs) {
-			if (this.songs[i].isNowPLaying) {
-				song = this.songs[i]
-			}
-		}
-		const newHTML = template(song)
-		$('.now-playing').append(newHTML);
-	}
+	// renderNowPlaying(song) {
+	// 	$(".now-playing").empty()
+	// 	const source = $("#now-playing-template").html()
+	// 	const template = Handlebars.compile(source)
+	// 	let song
+	// 	for (let i in this.songs) {
+	// 		if (this.songs[i].isNowPLaying) {
+	// 			song = this.songs[i]
+	// 		}
+	// 	}
+	// 	const newHTML = template(song)
+	// 	$('.now-playing').append(newHTML);
+	// }
 
 	renderMyPlaylist(myPlaylist) {
 		$(".songs").empty()
@@ -32,6 +32,6 @@ class Renderer {
 		const template = Handlebars.compile(source)
 		const newHTML = template({ myPlaylist })
 		$('.songs').append(newHTML);
-		this.renderSongs(this.songs)
+		// this.renderSongs(this.songs)
 	}
 }
