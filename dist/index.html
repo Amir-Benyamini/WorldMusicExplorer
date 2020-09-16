@@ -12,10 +12,12 @@
 
 <body>
 
-	<div id="search-bar">
+	<div id="search">
 
 		<div class="row">
-			<input id="countryInp" type="text" placeholder="Search for country" class="col s9">
+			<select name="countries" id="countryInp" class="col s9">
+
+			</select>
 
 			<button id="countryInpBtn" class="col s3 waves-effect waves-light btn">
 				<i class="material-icons">search</i>
@@ -52,16 +54,27 @@
 
 			<div>
 				<button id="playlist" class="col l1 #B0BEC5 blue-grey lighten-3">
-          <i class="material-icons">playlist_play</i>
-        </button>
+					<i class="material-icons">playlist_play</i>
+				</button>
 			</div>
 
 		</div>
+	</div>
 
-		<div class="now-playing"></div>
-		<div class="songs"></div>
+	<div class="now-playing"></div>
+	<div class="songs"></div>
 
-		<script id="songs-template" type="text/x-handlebars-template">
+	<script id="countries-template" type="text/x-handlebars-template">
+		  <div class="countries">
+		  {{#each countries}}
+			  <option value="{{this}}">{{this}}</option>
+		  {{/each}}
+
+		</div>
+		</script>
+
+
+	<script id="songs-template" type="text/x-handlebars-template">
 		{{#each songs}}
 		{{#if isNowPlaying}}
 		<div class="now-playing">
@@ -79,12 +92,12 @@
 		  <div class="album">{{album}}</div>
 		</div>
 		{{/if}}
-	{{/each}}
-	</script>
+		{{/each}}
+		</script>
 
 
 
-		<script id="my-playlist-template" type="text/x-handlebars-template">
+	<script id="my-playlist-template" type="text/x-handlebars-template">
 		{{#each myPlaylist}}
 		{{#if isNowPlaying}}
 		<div class="now-playing">
@@ -105,16 +118,16 @@
 		  </button>
 		</div>
 		{{/if}}
-	{{/each}}
-	</script>
+		{{/each}}
+		</script>
 
 
-		<script src="materialize-css/dist/js/materialize.js"></script>
-		<script src="handlebars/dist/handlebars.js"></script>
-		<script src="jquery/dist/jquery.js"></script>
-		<script src="Renderer.js"></script>
-		<script src="MusicManager.js"></script>
-		<script src="main.js"></script>
+	<script src="materialize-css/dist/js/materialize.js"></script>
+	<script src="handlebars/dist/handlebars.js"></script>
+	<script src="jquery/dist/jquery.js"></script>
+	<script src="Renderer.js"></script>
+	<script src="MusicManager.js"></script>
+	<script src="main.js"></script>
 </body>
 
 </html>

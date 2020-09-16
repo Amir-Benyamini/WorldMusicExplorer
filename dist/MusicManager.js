@@ -1,3 +1,4 @@
+const countries = ["algeria", "afganistan", "Bahamans"]
 const dummySongs =
 	[{ song: 'toxicity', artist: 'system of a down', album: 'toxicity', released: 2001 },
 	{ song: 'i am the walrus', artist: 'the beatles', album: 'magical mystery tour', released: 1967 },
@@ -7,9 +8,10 @@ const dummySongs =
 class MusicManager {
 	constructor() {
 		this.songs = []
+		this.countries = []
 	}
 
-	playSongs (songsList) {
+	playSongs(songsList) {
 		const firstSong = songsList.splice(0, 1)
 		const restOfList = songsList.splice(0, songsList.length)
 
@@ -22,7 +24,7 @@ class MusicManager {
 		restOfList.forEach(song => this.songs.push(song))
 	}
 
-	getSongByFilters= function (country, popular) {
+	getSongByFilters = function (country, popular) {
 		// let songsList = await $.get(`/songs/${country}/?popular=${popular}`)
 		this.playSongs(country)
 
@@ -46,7 +48,7 @@ class MusicManager {
 		})
 	}
 
-	deleteSongToDB(songName){
+	deleteSongToDB(songName) {
 		$.ajax({
 			type: 'DELETE',
 			url: `/song/${songName}`,
