@@ -1,0 +1,3738 @@
+{
+	"afganistan": [{
+			"name": "Ahmad Zahir",
+			"genres": ["Folk-Pop", "Ghazals", "Mast Rock Singer"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Ahmad_Zahir"
+		},
+		{
+			"name": "Ustad Sarahang",
+			"genres": ["Indian Classical Music", "Ghazals", "Singer"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Mohammad_Hussain_Sarahang"
+		},
+		{
+			"name": "Aziz Herawi",
+			"genres": ["Folk Music", "Dutar Virtuoso", "Rubab Virtuoso"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Aziz_Herawi"
+		},
+		{
+			"name": "Ustad Mohammad Omar",
+			"genres": ["Folk", "Rubab Virtuoso"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Mohammad_Omar_(musician)"
+		},
+		{
+			"name": "Sarban",
+			"genres": ["Folk-Pop", "Soft Rock", "Singer"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Sarban"
+		},
+		{
+			"name": "Mohammad Rahim Khushnawaz",
+			"genres": ["Folk Music", "Rubab Virtuoso"],
+			"wikiLink": "https://www.last.fm/music/Mohammad+Rahim+Khushnawaz"
+		},
+		{
+			"name": "Ustad Farida Mahwash",
+			"genres": ["Ghazals", "Pop Music", "Indian Classical Music", "Singer"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Mahwash"
+		}
+	],
+	"albania": [{
+			"name": "Vace Zela",
+			"genres": ["Folk Music", "Pop Music", "Soft Rock"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Va%C3%A7e_Zela"
+		},
+		{
+			"name": "Laver Bariu",
+			"genres": ["Clarinet Virtuoso", "Albanian Folk Music"],
+			"wikiLink": "https://www.last.fm/music/Laver+Bariu"
+		},
+		{
+			"name": "Tefta Tashko-Koco",
+			"genres": ["Pop Opera"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Tefta_Tashko-Ko%C3%A7o"
+		},
+		{
+			"name": "Lela Family de Permet (Famille Lela de Permet)",
+			"genres": ["Albanian Folk Music"],
+			"wikiLink": "https://rateyourmusic.com/artist/famille_lela_de_permet"
+		},
+		{
+			"name": "Fatime Sokoli",
+			"genres": ["Albanian Folk Music"],
+			"wikiLink": "https://sq.wikipedia.org/wiki/Fatime_Sokoli"
+		}
+	],
+	"algeria": [{
+			"name": "Pierre Bensusan",
+			"genres": ["Guitar Virtuoso"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Pierre_Bensusan"
+		},
+		{
+			"name": "Warda",
+			"genres": ["World Music", "Arabic Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Warda_Al-Jazairia"
+		},
+		{
+			"name": "Khaled",
+			"genres": ["Rai", "Pop Music", "World Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Khaled_%28musician%29"
+		},
+		{
+			"name": "Rachid Taha",
+			"genres": ["Rai", "World Music", "Rock Music", "Chaabi"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Rachid_Taha"
+		},
+		{
+			"name": "Martial Solal",
+			"genres": ["Jazz, Piano Virtuoso"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Martial_Solal"
+		},
+		{
+			"name": "Etienne Daho",
+			"genres": ["New Wave", "Pop"],
+			"wikiLink": "https://en.wikipedia.org/wiki/%C3%89tienne_Daho"
+		},
+		{
+			"name": "DJ Cheb i Sabbah",
+			"genres": ["Fusion, World Music, Indian Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Cheb_i_Sabbah"
+		},
+		{
+			"name": "Souad Massi",
+			"genres": ["World Music", "Folk Rock", "Singer-Songwriter"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Souad_Massi"
+		},
+		{
+			"name": "Lili Boniche ",
+			"genres": ["Arabic-Andalusian Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Lili_Boniche"
+		},
+		{
+			"name": "Hector Zazou",
+			"genres": ["Electronic"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Hector_Zazou"
+		},
+		{
+			"name": "Cheikha Rimitti",
+			"genres": ["Rai Music", "World Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Cheikha_Rimitti"
+		},
+		{
+			"name": "Idir",
+			"genres": ["World Music, Folk Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Idir"
+		},
+		{
+			"name": "Enrico Macias",
+			"genres": ["Chansons"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Enrico_Macias"
+		},
+		{
+			"name": "El Hadj M'Hamed El Anka",
+			"genres": ["Chaabi Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/El_Hadj_M%27Hamed_El_Anka"
+		},
+		{
+			"name": "Dahmane El Harrachi",
+			"genres": ["Chaabi", "World Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Dahmane_El_Harrachi"
+		},
+		{
+			"name": "Tony Gatlif",
+			"genres": ["World Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Tony_Gatlif"
+		},
+		{
+			"name": "Fadela and Sahraoui",
+			"genres": ["Rai"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Fadela_%26_Sahrawi"
+		},
+		{
+			"name": "Houria Aichi",
+			"genres": ["Folk Music"],
+			"wikiLink": "https://www.last.fm/music/Houria+A%C3%AFchi"
+		},
+		{
+			"name": "Alla",
+			"genres": ["Oud Virtuoso"],
+			"wikiLink": "https://www.last.fm/music/Alla"
+		},
+		{
+			"name": "Cheikh Hamada",
+			"genres": ["World Music"],
+			"wikiLink": "https://www.last.fm/music/Cheikh+Hamada"
+		},
+		{
+			"name": "Gnawa Diffusion",
+			"genres": ["Gnawa Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Gnawa_Diffusion"
+		}
+	],
+	"angola": [{
+			"name": "Bonga",
+			"genres": ["Angolan Folk Music", "Semba", "World Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Bonga_%28musician%29"
+		},
+		{
+			"name": "Waldemar Bastos",
+			"genres": ["Afropop", "Fado", "World Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Waldemar_Bastos"
+		},
+		{
+			"name": "Ruy Mingas ",
+			"genres": ["World Music"],
+			"wikiLink": "https://www.last.fm/music/Ruy%20Mingas"
+		},
+		{
+			"name": "Artur Nunes",
+			"genres": ["Folk Music", "World Music"],
+			"wikiLink": "https://www.last.fm/music/Artur+Nunes"
+		},
+		{
+			"name": "Ngola Ritmos",
+			"genres": ["Folk Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Ngola_Ritmos"
+		}
+	],
+	"Antigua": [{
+		"name": "Bert Williams",
+		"genres": ["Cabaret Music"],
+		"wikiLink": "https://en.wikipedia.org/wiki/Bert_Williams"
+	}],
+	"Argentina": [{
+			"name": "Astor Piazzolla",
+			"genres": ["Nuevo Tango"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Astor_Piazzolla"
+		},
+		{
+			"name": "Carlos Gardel",
+			"genres": ["Tango"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Carlos_Gardel"
+		},
+		{
+			"name": "Anibal Troilo",
+			"genres": ["Bandoneon Virtuoso", "Tango"],
+			"wikiLink": "https://en.wikipedia.org/wiki/An%C3%ADbal_Troilo"
+		},
+		{
+			"name": "Martha Argerich",
+			"genres": ["Virtuoso Pianist", "Classical Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Martha_Argerich"
+		},
+		{
+			"name": "Gustavo Santaolalla",
+			"genres": ["Latin Rock", "Electrotango", "Film Scores", "Instrumental"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Gustavo_Santaolalla"
+		},
+		{
+			"name": "Lalo Schifrin",
+			"genres": ["Spy Music", "Bebop", "Rock", "Instrumental", "Jazz", "Film Scores"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Lalo_Schifrin"
+		},
+		{
+			"name": "Mercedes Sosa",
+			"genres": ["Folk Music, World Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Mercedes_Sosa"
+		},
+		{
+			"name": "Soda Stereo",
+			"genres": ["Rock", "Alternative Rock", "Post-Rock", "New Wave"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Soda_Stereo"
+		},
+		{
+			"name": "Atahualpa Yupanqui",
+			"genres": ["Folk Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Atahualpa_Yupanqui"
+		},
+		{
+			"name": "Osvaldo Pugliese",
+			"genres": ["Tango "],
+			"wikiLink": "https://en.wikipedia.org/wiki/Osvaldo_Pugliese"
+		},
+		{
+			"name": "Luis Bacalov",
+			"genres": ["Film Scores", "Instrumental"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Luis_Bacalov"
+		},
+		{
+			"name": "Charly Garcia",
+			"genres": ["Pop/Rock"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Charly_Garc%C3%ADa"
+		},
+		{
+			"name": "Jose Gonzales",
+			"genres": ["Singer-Songwriter", "Acoustic Music", "Indie"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Jos%C3%A9_Gonz%C3%A1lez"
+		},
+		{
+			"name": "Sumo ",
+			"genres": ["alternative rock"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Sumo_%28band%29"
+		},
+		{
+			"name": "Invisible ",
+			"genres": ["Progressive rock", "jazz rock", "art rock"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Invisible_%28band%29"
+		},
+		{
+			"name": "Serú Girán",
+			"genres": ["Progressive rock", "jazz fusion", "symphonic rock"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Ser%C3%BA_Gir%C3%A1n"
+		},
+		{
+			"name": "Los Fabulosos Cadillacs ",
+			"genres": ["Latin music", "ska", "rock", "reggae", "dub"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Los_Fabulosos_Cadillacs"
+		},
+		{
+			"name": "Gato Barbieri  ",
+			"genres": [" Latin jazz"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Gato_Barbieri"
+		},
+		{
+			"name": "Giora Feidman ",
+			"genres": ["Klezmer"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Giora_Feidman"
+		},
+		{
+			"name": "Pescado Rabioso ",
+			"genres": ["Blues rock", "hard rock"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Pescado_Rabioso"
+		},
+		{
+			"name": "Roberto Firpo",
+			"genres": ["tango pianist", "composer"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Roberto_Firpo"
+		},
+		{
+			"name": "Sui Generis",
+			"genres": ["Folk rock", "progressive rock"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Sui_Generis"
+		},
+		{
+			"name": "Juan d'Arienzo",
+			"genres": ["Tango", "Milonga"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Juan_d%27Arienzo"
+		},
+		{
+			"name": "Sexteto Mayor ",
+			"genres": ["tango"],
+			"wikiLink": "https://www.last.fm/music/Sexteto+Mayor"
+		},
+		{
+			"name": "Roberto Goyeneche ",
+			"genres": ["tango"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Roberto_Goyeneche"
+		},
+		{
+			"name": "Gustavo Cerati ",
+			"genres": ["Rock"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Gustavo_Cerati"
+		},
+		{
+			"name": "Alberto Ginastera",
+			"genres": ["classical music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Alberto_Ginastera"
+		},
+		{
+			"name": "Luis Alberto Spinetta",
+			"genres": ["Jazz Rock"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Luis_Alberto_Spinetta"
+		},
+		{
+			"name": "Enanitos Verdes",
+			"genres": ["Rock"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Enanitos_Verdes"
+		},
+		{
+			"name": "Los Chalchakis ",
+			"genres": ["Folk"],
+			"wikiLink": "https://www.last.fm/music/Los+Calchakis"
+		},
+		{
+			"name": "Andres Calamaro ",
+			"genres": ["Rock and roll"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Andr%C3%A9s_Calamaro"
+		},
+		{
+			"name": "Oscar Aleman",
+			"genres": ["Jazz", "Swing"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Oscar_Alem%C3%A1n"
+		},
+		{
+			"name": "Almendra ",
+			"genres": ["Psychedelic rock"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Almendra_%28band%29"
+		},
+		{
+			"name": "Ariel Ramirez ",
+			"genres": ["classic"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Ariel_Ram%C3%ADrez"
+		},
+		{
+			"name": "Alfredo De Angelis ",
+			"genres": ["Pianist", "composer"],
+			"wikiLink": "https://www.last.fm/music/Alfredo%20De%20Angelis"
+		},
+		{
+			"name": "Divididos",
+			"genres": ["Alternative rock"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Divididos"
+		},
+		{
+			"name": "Jorge Cafrune ",
+			"genres": ["Argentine folk music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Jorge_Cafrune"
+		},
+		{
+			"name": "Patricio Rey y sus Redonditos de Ricota",
+			"genres": ["Post-punk"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Patricio_Rey_y_sus_Redonditos_de_Ricota"
+		}
+	],
+	"Armenia": [{
+			"name": "Aram Khachaturian ",
+			"genres": ["Modern Classical Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Aram_Khachaturian"
+		},
+		{
+			"name": "Charles Aznavour ",
+			"genres": ["Chanson"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Charles_Aznavour"
+		},
+		{
+			"name": "System of a Down",
+			"genres": ["Alternative Metal"],
+			"wikiLink": "http://en.wikipedia.org/wiki/System_of_a_Down"
+		},
+		{
+			"name": "Djivan Gasparyan",
+			"genres": ["Duduk Virtuoso"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Djivan_Gasparyan"
+		},
+		{
+			"name": "Leon Redbone",
+			"genres": ["Ragtime"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Leon_Redbone"
+		},
+		{
+			"name": "Sayat Nova",
+			"genres": ["Armenian Folk Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Sayat-Nova"
+		},
+		{
+			"name": "Raffi ",
+			"genres": ["Children Songs"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Raffi"
+		},
+		{
+			"name": "Paul Motian",
+			"genres": ["Jazz"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Paul_Motian"
+		},
+		{
+			"name": "Udi Hrant Kenkulian ",
+			"genres": ["Oud Virtuoso"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Udi_Hrant_Kenkulian"
+		},
+		{
+			"name": "Kemani Tatyos Ekserciyan",
+			"genres": ["Ottoman Classical Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Kemani_Tatyos_Ekserciyan"
+		},
+		{
+			"name": "Ruhi Su",
+			"genres": ["Anatolian Folk Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Ruhi_Su"
+		},
+		{
+			"name": "Serj Tankian ",
+			"genres": ["Alternative Rock "],
+			"wikiLink": "https://en.wikipedia.org/wiki/Serj_Tankian"
+		},
+		{
+			"name": "Komitas Vardapet ",
+			"genres": ["Classical Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Komitas"
+		},
+		{
+			"name": "Cathy Berberian ",
+			"genres": ["Folk Music, Opera Singer"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Cathy_Berberian"
+		},
+		{
+			"name": "Bimen Dergazaryan",
+			"genres": ["Ottoman Classical Music "],
+			"wikiLink": "https://tr.wikipedia.org/wiki/Bimen_%C5%9Een"
+		},
+		{
+			"name": "George Gurdjieff",
+			"genres": ["Modern Classical Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/George_Gurdjieff"
+		},
+		{
+			"name": "Marika Ninou ",
+			"genres": ["Rebetiko"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Marika_Ninou"
+		}
+	],
+	"Australia": [{
+			"name": "AC/DC",
+			"genres": ["Hard Rock"],
+			"wikiLink": "https://en.wikipedia.org/wiki/AC/DC"
+		},
+		{
+			"name": "Nick Cave and the Bad Seeds",
+			"genres": [" Post Punk"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Nick_Cave_and_the_Bad_Seeds"
+		},
+		{
+			"name": " Dead Can Dance",
+			"genres": [" Ethereal"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Dead_Can_Dance"
+		},
+		{
+			"name": " Crowded House",
+			"genres": ["Pop Rock "],
+			"wikiLink": "https://en.wikipedia.org/wiki/Crowded_House"
+		},
+		{
+			"name": "INXS",
+			"genres": [" Rock"],
+			"wikiLink": "https://en.wikipedia.org/wiki/INXS"
+		},
+		{
+			"name": "John Williams ",
+			"genres": ["Guitar Virtuoso"],
+			"wikiLink": "https://en.wikipedia.org/wiki/John_Williams_%28guitarist%29"
+		},
+		{
+			"name": "The Birthday Party",
+			"genres": [" Post Punk"],
+			"wikiLink": "https://en.wikipedia.org/wiki/The_Birthday_Party_%28band%29"
+		},
+		{
+			"name": "The Church ",
+			"genres": ["Alternative Rock"],
+			"wikiLink": "https://en.wikipedia.org/wiki/The_Church_%28band%29"
+		},
+		{
+			"name": "Midnight Oil ",
+			"genres": ["Alternative Rock"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Midnight_Oil"
+		},
+		{
+			"name": "Radio Birdman",
+			"genres": [" Punk Rock"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Radio_Birdman"
+		},
+		{
+			"name": "The Go-Betweens ",
+			"genres": ["  Indie Pop"],
+			"wikiLink": "https://en.wikipedia.org/wiki/The_Go-Betweens"
+		},
+		{
+			"name": "Percy Grainger  ",
+			"genres": ["Modern Classical"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Percy_Grainger"
+		},
+		{
+			"name": "The Birthday Party",
+			"genres": [" Post Punk"],
+			"wikiLink": "https://en.wikipedia.org/wiki/The_Birthday_Party_%28band%29"
+		},
+		{
+			"name": "The Easybeats",
+			"genres": ["Classic Rock"],
+			"wikiLink": "https://en.wikipedia.org/wiki/The_Easybeats"
+		},
+		{
+			"name": "The Saints",
+			"genres": ["Punk Rock"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Saint_(disambiguation)#Music"
+		},
+		{
+			"name": "Nick Cave",
+			"genres": ["Alternative Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Nick_Cave"
+		},
+		{
+			"name": " Joan Sutherland ",
+			"genres": [" Opera Singer"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Joan_Sutherland"
+		}
+	],
+	"Austria": [{
+			"name": "Wolfgang Amadeus Mozart ",
+			"genres": ["Classical Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Wolfgang_Amadeus_Mozart"
+		},
+		{
+			"name": "Franz Joseph Haydn ",
+			"genres": ["Classical Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Joseph_Haydn"
+		},
+		{
+			"name": "Franz Schubert",
+			"genres": ["Classical Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Franz_Schubert"
+		},
+		{
+			"name": "Gustav Mahler ",
+			"genres": ["Classical Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Gustav_Mahler"
+		},
+		{
+			"name": "Johann Strauss II ",
+			"genres": ["Classical Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Johann_Strauss_II"
+		},
+		{
+			"name": "Anton Bruckner",
+			"genres": ["Classical Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Anton_Bruckner"
+		},
+		{
+			"name": "Heinrich Ignaz Franz von Biber",
+			"genres": ["Classical Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Heinrich_Ignaz_Franz_Biber"
+		},
+		{
+			"name": "Arnold Schonberg",
+			"genres": [" Classical Music "],
+			"wikiLink": "https://en.wikipedia.org/wiki/Arnold_Schoenberg"
+		},
+		{
+			"name": "Herbert von Karajan",
+			"genres": ["Classical Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Herbert_von_Karajan"
+		},
+		{
+			"name": "Anton Webern",
+			"genres": ["Classical Music "],
+			"wikiLink": "https://en.wikipedia.org/wiki/Anton_Webern"
+		},
+		{
+			"name": "Alban Berg",
+			"genres": ["Classical Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Alban_Berg"
+		},
+		{
+			"name": "Fritz Kreisler",
+			"genres": ["Violin Virtuoso"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Fritz_Kreisler"
+		},
+		{
+			"name": " Johann Heinrich Schmelzer",
+			"genres": ["Classical Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Johann_Heinrich_Schmelzer"
+		},
+		{
+			"name": "Johann Nepomuk Hummel ",
+			"genres": ["Classical Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Johann_Nepomuk_Hummel"
+		},
+		{
+			"name": "Max Steiner ",
+			"genres": [" Classical Music "],
+			"wikiLink": "https://en.wikipedia.org/wiki/Max_Steiner"
+		},
+		{
+			"name": "Johann Strauss",
+			"genres": ["Classical Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Johann_Strauss_I"
+		},
+		{
+			"name": "Artur Schnabel",
+			"genres": ["Classical Music "],
+			"wikiLink": "https://en.wikipedia.org/wiki/Artur_Schnabel"
+		},
+		{
+			"name": "Franz von Suppé ",
+			"genres": ["Classical Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Franz_von_Supp%C3%A9"
+		},
+		{
+			"name": "Lotte Lenya ",
+			"genres": ["Cabaret"],
+			"wikiLink": "http://en.wikipedia.org/wiki/Lotte_Lenya"
+		},
+		{
+			"name": " Anton Karas",
+			"genres": [" Zither Virtuoso"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Anton_Karas"
+		},
+		{
+			"name": " Nikolaus Harnoncourt",
+			"genres": ["Classical Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Nikolaus_Harnoncourt"
+		},
+		{
+			"name": "Joe Zawinul ",
+			"genres": ["Jazz Fusion"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Joe_Zawinul"
+		},
+		{
+			"name": "Alfred Brendel ",
+			"genres": ["Virtuoso Pianist"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Alfred_Brendel"
+		},
+		{
+			"name": "Alban Berg Quartet ",
+			"genres": [" Classical Music "],
+			"wikiLink": "https://en.wikipedia.org/wiki/Alban_Berg_Quartett"
+		},
+		{
+			"name": "Michael Haydn",
+			"genres": ["Classical Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Michael_Haydn"
+		},
+		{
+			"name": "Alexander Zemlinsky ",
+			"genres": ["Classical Music "],
+			"wikiLink": "https://en.wikipedia.org/wiki/Alexander_von_Zemlinsky"
+		},
+		{
+			"name": "Carl Czerny ",
+			"genres": ["Virtuoso Pianist"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Carl_Czerny"
+		},
+		{
+			"name": "Carl Ditters von Dittersdorf ",
+			"genres": ["Classical Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Carl_Ditters_von_Dittersdorf"
+		},
+		{
+			"name": "Karl Bohm  ",
+			"genres": ["Conductor"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Karl_B%C3%B6hm"
+		},
+		{
+			"name": "Carlos Kleiber",
+			"genres": ["Conductor"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Carlos_Kleiber"
+		}
+	],
+	"Azerbaijan": [{
+			"name": " Vagif Mustafa Zadeh",
+			"genres": ["Jazz"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Vagif_Mustafazadeh"
+		},
+		{
+			"name": "Aziza Mustafa Zadeh ",
+			"genres": [" Jazz Fusion"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Aziza_Mustafa_Zadeh"
+		},
+		{
+			"name": "Muslim Magomayev ",
+			"genres": ["Jazz"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Muslim_Magomayev_%28musician%29"
+		},
+		{
+			"name": "Uzeyir Hacibeyov ",
+			"genres": ["Classical Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Uzeyir_Hajibeyov"
+		},
+		{
+			"name": "Fikret Amirov ",
+			"genres": ["Classical Music"],
+			"wikiLink": "http://en.wikipedia.org/wiki/Fikret_Amirov"
+		},
+		{
+			"name": " Bul-bul",
+			"genres": ["Folk Music Singer"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Bulbul_%28singer%29"
+		},
+		{
+			"name": "Resid Behbudov",
+			"genres": ["Opera Vocal", "Folk Singer"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Rashid_Behbudov"
+		},
+		{
+			"name": "Alim Qasimov ",
+			"genres": ["Folk Music "],
+			"wikiLink": "https://en.wikipedia.org/wiki/Alim_Qasimov"
+		},
+		{
+			"name": "Khan Shushinsky",
+			"genres": ["World Music "],
+			"wikiLink": "https://en.wikipedia.org/wiki/Googoosh"
+		},
+		{
+			"name": "Googoosh",
+			"genres": ["Classical Music "],
+			"wikiLink": "https://en.wikipedia.org/wiki/Anton_Webern"
+		},
+		{
+			"name": "Gara Garayev ",
+			"genres": ["Classical Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Gara_Garayev"
+		},
+		{
+			"name": "Safiyuddin ",
+			"genres": ["Turkish Classical Music"],
+			"wikiLink": "https://tr.wikipedia.org/wiki/Safiyy%C3%BCddin_Urmev%C3%AE"
+		},
+		{
+			"name": "Dariush",
+			"genres": ["Pop Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Dariush_(singer)"
+		},
+		{
+			"name": "Hossein Alizadeh",
+			"genres": [" Tar Player"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Hossein_Alizadeh"
+		},
+		{
+			"name": "Chingiz Sadykhov",
+			"genres": ["Piano Virtuoso"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Chingiz_Sadykhov"
+		}
+	],
+	"Bahamas": [{
+			"name": "Joseph Spence",
+			"genres": ["Folk"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Joseph_Spence_%28musician%29"
+		},
+		{
+			"name": "Exuma",
+			"genres": [" Folk"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Exuma_%28musician%29"
+		},
+		{
+			"name": " The Beginning of the End",
+			"genres": ["Goombay"],
+			"wikiLink": "https://en.wikipedia.org/wiki/The_Beginning_of_the_End_%28band%29"
+		}
+	],
+	"Bahrain": [{
+		"name": " Majeed Marhoon",
+		"genres": ["Saxophone Virtuoso"],
+		"wikiLink": "https://en.wikipedia.org/wiki/Majeed_Marhoon"
+	}],
+	"Bangladesh": [{
+			"name": "Ustad Vilayat Khan  ",
+			"genres": ["Sitar Virtuoso"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Vilayat_Khan"
+		},
+		{
+			"name": "Ali Akbar Khan",
+			"genres": ["Sarod Virtuoso"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Ali_Akbar_Khan"
+		},
+		{
+			"name": " Rabindranath Tagore",
+			"genres": ["World Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Rabindranath_Tagore"
+		},
+		{
+			"name": "Sachin Dev Burman",
+			"genres": ["Bollywood Musics"],
+			"wikiLink": "https://en.wikipedia.org/wiki/S._D._Burman"
+		},
+		{
+			"name": "Allauddin Khan",
+			"genres": ["Sarod Virtuoso"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Allauddin_Khan"
+		},
+		{
+			"name": "Kazi Nazrul Islam",
+			"genres": ["World Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Kazi_Nazrul_Islam"
+		},
+		{
+			"name": "Android Lust",
+			"genres": ["Bansuri Virtuoso"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Android_Lust"
+		},
+		{
+			"name": "Pannalal Ghosh",
+			"genres": ["Piano Virtuoso"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Pannalal_Ghosh"
+		}
+	],
+	"Barbados": [{
+		"name": " Jackie Opel",
+		"genres": ["Soul Music"],
+		"wikiLink": "https://en.wikipedia.org/wiki/Jackie_Opel"
+	}],
+	"Belarus": [{
+		"name": " Yehudi Menuhin",
+		"genres": ["Violin Virtuoso"],
+		"wikiLink": "https://en.wikipedia.org/wiki/Yehudi_Menuhin"
+	}],
+	"Belgium": [{
+			"name": "Guillaume Dufay ",
+			"genres": ["Classic"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Guillaume_Du_Fay"
+		},
+		{
+			"name": "Johannes Ockeghem",
+			"genres": ["Classic"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Johannes_Ockeghem"
+		},
+		{
+			"name": "Cesar Franck ",
+			"genres": ["Classic"],
+			"wikiLink": "https://en.wikipedia.org/wiki/C%C3%A9sar_Franck"
+		},
+		{
+			"name": "Django Reinhardt",
+			"genres": ["Guitar Virtuoso"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Django_Reinhardt"
+		},
+		{
+			"name": "Josquin Desprez",
+			"genres": ["Classic"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Josquin_des_Prez"
+		},
+		{
+			"name": "Orlande de Lassus ",
+			"genres": ["Classic"],
+			"wikiLink": "http://en.wikipedia.org/wiki/Orlande_de_Lassus"
+		},
+		{
+			"name": "Pierre de la Rue",
+			"genres": ["Classic"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Pierre_de_la_Rue"
+		},
+		{
+			"name": "Heinrich Isaac ",
+			"genres": ["Classic"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Heinrich_Isaac"
+		},
+		{
+			"name": "Jacques Brel ",
+			"genres": ["Chansons"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Jacques_Brel"
+		},
+		{
+			"name": "Adrian Willaert ",
+			"genres": ["Classic"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Adrian_Willaert"
+		},
+		{
+			"name": "Cipriano de Rore",
+			"genres": ["Classic"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Cipriano_de_Rore"
+		},
+		{
+			"name": "Wim Mertens ",
+			"genres": ["Classic"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Wim_Mertens"
+		},
+		{
+			"name": "Alexander Agricola",
+			"genres": ["Classic"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Alexander_Agricola"
+		},
+		{
+			"name": "Hooverphonic",
+			"genres": [" Dream Pop Band"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Hooverphonic"
+		},
+		{
+			"name": "Arthur Grumiaux ",
+			"genres": ["Violin Virtuoso"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Arthur_Grumiaux"
+		},
+		{
+			"name": "Vaya Con Dios",
+			"genres": ["Pop Jazz"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Vaya_Con_Dios_%28band%29"
+		},
+		{
+			"name": "Deus",
+			"genres": ["Alternative Rock Band"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Deus_%28band%29"
+		},
+		{
+			"name": "Eugene Ysaye",
+			"genres": ["Violin Virtuoso"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Eug%C3%A8ne_Ysa%C3%BFe"
+		},
+		{
+			"name": "Soulwax",
+			"genres": ["Electronic Pop "],
+			"wikiLink": "https://en.wikipedia.org/wiki/Soulwax"
+		},
+		{
+			"name": "Gilles Binchois ",
+			"genres": [" Classic music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Gilles_Binchois"
+		},
+		{
+			"name": "Henry Vieuxtemps",
+			"genres": [" Classic music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Henri_Vieuxtemps"
+		},
+		{
+			"name": "Arno",
+			"genres": ["Rock"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Arno_(singer)"
+		}
+	],
+	"Benin": [{
+			"name": "T.P. Orchestre Poly-Rythmo de Cotonou",
+			"genres": ["Afrobeat"],
+			"wikiLink": "https://www.last.fm/tr/music/Orchestre+Poly-Rythmo+de+Cotonou"
+		},
+		{
+			"name": "Angelique Kidjo",
+			"genres": ["Afro-Pop"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Ang%C3%A9lique_Kidjo"
+		},
+		{
+			"name": "El Rego Et Ses Commandos",
+			"genres": ["Afrobeat"],
+			"wikiLink": "https://www.last.fm/tr/music/El+Rego+et+ses+Commandos"
+		},
+		{
+			"name": "Gnonnas Pedro",
+			"genres": ["World Music"],
+			"wikiLink": "https://www.last.fm/tr/music/Gnonnas+Pedro"
+		},
+		{
+			"name": " Wally Badarou",
+			"genres": [" Synth Pop"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Wally_Badarou"
+		}
+	],
+	"Bermuda": [{
+		"name": "Heather Nova",
+		"genres": [" Singer-Songwriter"],
+		"wikiLink": "https://en.wikipedia.org/wiki/Heather_Nova"
+	}],
+	"Bhutan": [{
+		"name": "Lama Gyurme ",
+		"genres": ["Ambient Music"],
+		"wikiLink": "https://en.wikipedia.org/wiki/Lama_Gyurme"
+	}],
+	"Bolivia": [{
+			"name": " Los Kjarkas",
+			"genres": ["Folk Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Los_Kjarkas"
+		},
+		{
+			"name": "Climax",
+			"genres": ["Progressive Rock"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Climax_%28band%29"
+		},
+		{
+			"name": "Emma Junaro ",
+			"genres": ["World Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Emma_Junaro"
+		},
+		{
+			"name": "Rumillajta",
+			"genres": ["Folk Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Rumillajta"
+		}
+	],
+	"Bosnia": [{
+			"name": "Goran Bregovic ",
+			"genres": ["Folk Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Goran_Bregovi%C4%87"
+		},
+		{
+			"name": "Emir Kusturica and The No Smoking Orchestra",
+			"genres": [" World Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Zabranjeno_Pu%C5%A1enje"
+		},
+		{
+			"name": "Bijelo Dugme",
+			"genres": ["Rock"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Bijelo_Dugme"
+		},
+		{
+			"name": "Indexi",
+			"genres": ["Progressive Rock"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Indexi"
+		},
+		{
+			"name": "Dino Merlin ",
+			"genres": ["Pop Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Dino_Merlin"
+		},
+		{
+			"name": "Divlje Jagode ",
+			"genres": ["Hard Rock"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Divlje_jagode"
+		},
+		{
+			"name": "Zabranjeno Pusenje",
+			"genres": ["Rock"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Zabranjeno_Pu%C5%A1enje"
+		},
+		{
+			"name": "Crvena Jabuka",
+			"genres": ["Pop Rock"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Crvena_jabuka"
+		},
+		{
+			"name": "Silvena Armenulic",
+			"genres": ["Folk Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Silvana_Armenuli%C4%87"
+		},
+		{
+			"name": "Mostar Sevdah Reunion",
+			"genres": [" Folk Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Mostar_Sevdah_Reunion"
+		}
+	],
+	"British Virgin Islands": [{
+		"name": " Jon Lucien",
+		"genres": [" Soul"],
+		"wikiLink": "https://en.wikipedia.org/wiki/Jon_Lucien"
+	}],
+	"Brazil": [{
+			"name": "Antonio Carlos Jobim",
+			"genres": ["Bossa Nova"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Ant%C3%B4nio_Carlos_Jobim"
+		},
+		{
+			"name": " Joao Gilberto ",
+			"genres": ["Bossa Nova"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Jo%C3%A3o_Gilberto"
+		},
+		{
+			"name": "Caetano Veloso",
+			"genres": ["Mpb"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Caetano_Veloso"
+		},
+		{
+			"name": "Cartola",
+			"genres": ["Samba"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Cartola"
+		},
+		{
+			"name": "Jorge Ben ",
+			"genres": ["Mpb"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Jorge_Ben"
+		},
+		{
+			"name": "Vinicius de Moraes",
+			"genres": ["Bossa Nova"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Vinicius_de_Moraes"
+		},
+		{
+			"name": " Astrud Gilberto",
+			"genres": ["Bossa Nova"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Astrud_Gilberto"
+		},
+		{
+			"name": "Os Mutantes",
+			"genres": ["Psychedelic Rock"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Os_Mutantes"
+		},
+		{
+			"name": "Chico Buarque",
+			"genres": ["Mpb"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Chico_Buarque"
+		},
+		{
+			"name": " Heitor Villa-Lobos",
+			"genres": ["Classical Music "],
+			"wikiLink": "https://en.wikipedia.org/wiki/Heitor_Villa-Lobos"
+		},
+		{
+			"name": "Baden Powell",
+			"genres": ["Bossa Nova"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Baden_Powell_(guitarist)"
+		},
+		{
+			"name": " Gilberto Gil ",
+			"genres": ["Mpb"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Gilberto_Gil"
+		},
+		{
+			"name": "Sergio Mendes",
+			"genres": [" Bossa Nova"],
+			"wikiLink": "https://en.wikipedia.org/wiki/S%C3%A9rgio_Mendes"
+		},
+		{
+			"name": "Elis Regina ",
+			"genres": ["Mpb"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Elis_Regina"
+		},
+		{
+			"name": "Paulinho da Viola  ",
+			"genres": ["Samba"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Paulinho_da_Viola"
+		},
+		{
+			"name": " Tom Ze ",
+			"genres": ["Tropicalia"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Tom_Z%C3%A9"
+		},
+		{
+			"name": "Luiz Bonfá ",
+			"genres": ["Bossa Nova"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Luiz_Bonf%C3%A1"
+		},
+		{
+			"name": "Gal Costa",
+			"genres": ["Tropicalia"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Gal_Costa"
+		},
+		{
+			"name": "Milton Nascimento",
+			"genres": ["Mpb"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Milton_Nascimento"
+		},
+		{
+			"name": "Novos Baianos  ",
+			"genres": ["Samba Rock"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Novos_Baianos"
+		},
+		{
+			"name": "Maria Bethania ",
+			"genres": ["Mpb"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Maria_Beth%C3%A2nia"
+		},
+		{
+			"name": "Nara Leao",
+			"genres": ["Bossa Nova"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Nara_Le%C3%A3o"
+		},
+		{
+			"name": "Marcos Valle ",
+			"genres": ["Bossa Nova"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Marcos_Valle"
+		},
+		{
+			"name": "Tim Maia ",
+			"genres": ["Mpb"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Tim_Maia"
+		},
+		{
+			"name": " Dorival Caymmi  ",
+			"genres": ["Mpb"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Dorival_Caymmi"
+		},
+		{
+			"name": "Adoniran Barbosa  ",
+			"genres": ["Samba"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Adoniran_Barbosa"
+		},
+		{
+			"name": "Pixinguinha ",
+			"genres": ["Instrumental"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Pixinguinha"
+		},
+		{
+			"name": "Joao Donato",
+			"genres": ["Bossa Nova"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Jo%C3%A3o_Donato"
+		},
+		{
+			"name": "Edu Lobo ",
+			"genres": ["Bossa Nova"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Edu_Lobo"
+		},
+		{
+			"name": "Tamba Trio ",
+			"genres": ["Bossa Nova"],
+			"wikiLink": "https://www.last.fm/music/Tamba+Trio"
+		},
+		{
+			"name": "Sepultura  ",
+			"genres": [" Thrash Metal"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Sepultura"
+		},
+		{
+			"name": "Noel Rosa ",
+			"genres": ["Samba"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Noel_Rosa"
+		},
+		{
+			"name": "Elizeth Cardoso  ",
+			"genres": ["Bossa Nova"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Elizete_Cardoso"
+		},
+		{
+			"name": " Nelson Cavaquinho ",
+			"genres": ["Samba"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Nelson_Cavaquinho"
+		},
+		{
+			"name": "Secos and Molhados ",
+			"genres": ["Progressive Pop"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Secos_%26_Molhados"
+		},
+		{
+			"name": "Clementina de Jesus",
+			"genres": ["Samba"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Clementina_de_Jesus"
+		},
+		{
+			"name": " Joao Bosco",
+			"genres": ["Mpb"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Jo%C3%A3o_Bosco"
+		},
+		{
+			"name": "Amon Tobin",
+			"genres": ["Electronic Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Amon_Tobin"
+		},
+		{
+			"name": " Ary Barroso ",
+			"genres": ["Samba"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Ary_Barroso"
+		},
+		{
+			"name": "Candeia   ",
+			"genres": ["Samba"],
+			"wikiLink": "https://www.last.fm/tr/music/Candeia"
+		},
+		{
+			"name": " Raul Seixas ",
+			"genres": ["Rock"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Raul_Seixas"
+		},
+		{
+			"name": "Jackson do Pandeiro ",
+			"genres": ["Samba"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Jackson_do_Pandeiro"
+		},
+		{
+			"name": "Luiz Gonzaga",
+			"genres": [" Folk Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Luiz_Gonzaga"
+		},
+		{
+			"name": " Rita Lee ",
+			"genres": ["Mpb"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Rita_Lee"
+		},
+		{
+			"name": "Moacir Santos",
+			"genres": ["Bossa Nova"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Moacir_Santos"
+		}
+	],
+	"Bulgaria": [{
+			"name": "La Mystere des Voix Bulgares",
+			"genres": ["Folk Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Le_Myst%C3%A8re_des_Voix_Bulgares"
+		},
+		{
+			"name": "Alexis Weissenberg",
+			"genres": ["Piano Virtuoso"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Alexis_Weissenberg"
+		},
+		{
+			"name": "Nicolai Ghiaurov",
+			"genres": [" Opera Singer"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Nicolai_Ghiaurov"
+		},
+		{
+			"name": " The Trio Bulgarka",
+			"genres": ["Folk Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Trio_Bulgarka"
+		},
+		{
+			"name": "Boris Christoff ",
+			"genres": ["Opera Singer"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Boris_Christoff"
+		},
+		{
+			"name": "Nicolai Ghiaurov ",
+			"genres": ["Opera Singer"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Nicolai_Ghiaurov"
+		},
+		{
+			"name": "Irfan ",
+			"genres": ["Neofolk"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Irfan_%28band%29"
+		},
+		{
+			"name": " Ivo Papasov ",
+			"genres": [" Clarinet Virtuoso"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Ivo_Papazov"
+		},
+		{
+			"name": " Nikolo Kotzev ",
+			"genres": ["Rock"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Nikolo_Kotzev"
+		},
+		{
+			"name": "Isihia",
+			"genres": ["Neofolk"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Isihia"
+		}
+	],
+	"Burkina Faso": [{
+			"name": " Adama Drame",
+			"genres": [" Percussion Virtuoso"],
+			"wikiLink": "https://www.last.fm/music/Adama+Dram%C3%A9"
+		},
+		{
+			"name": "  Victor Deme ",
+			"genres": ["World Music"],
+			"wikiLink": "https://www.last.fm/music/Victor+D%C3%A9m%C3%A9"
+		},
+		{
+			"name": " Amadou Balake",
+			"genres": ["World Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Amadou_Balak%C3%A9"
+		}
+	],
+	"Cambodia": [{
+			"name": "Ros Sereysothea ",
+			"genres": ["Psychedelic Pop-Rock"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Ros_Serey_Sothea"
+		},
+		{
+			"name": "Sinn Sisamouth ",
+			"genres": [" Clarinet Virtuoso"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Sinn_Sisamouth"
+		},
+		{
+			"name": " Pan Ron  ",
+			"genres": ["Psychedelic Pop"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Pen_Ran"
+		},
+		{
+			"name": "Yol Aularong",
+			"genres": ["Garage Rock"],
+			"wikiLink": "https://www.last.fm/tr/music/Yol+Aularong"
+		}
+	],
+	"Cameroon": [{
+			"name": "Manu Dibango  ",
+			"genres": ["Funk"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Manu_Dibango"
+		},
+		{
+			"name": "Richard Bona ",
+			"genres": ["World Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Richard_Bona"
+		},
+		{
+			"name": "Francis Bebey",
+			"genres": ["Funk"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Francis_Bebey"
+		},
+		{
+			"name": "Anne-Marie Nzie",
+			"genres": ["World Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Anne-Marie_Nzi%C3%A9"
+		}
+	],
+	"Canada": [{
+			"name": " Neil Young  ",
+			"genres": ["Folk Rock"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Neil_Young"
+		},
+		{
+			"name": " Leonard Cohen ",
+			"genres": ["Folk Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Leonard_Cohen"
+		},
+		{
+			"name": " Joni Mitchell",
+			"genres": ["Folk Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Joni_Mitchell"
+		},
+		{
+			"name": "Rush ",
+			"genres": ["Progressive Rock"],
+			"wikiLink": "http://en.wikipedia.org/wiki/Rush_band"
+		},
+		{
+			"name": "The Band ",
+			"genres": [" Folk Rock"],
+			"wikiLink": "http://en.wikipedia.org/wiki/The_Band"
+		},
+		{
+			"name": "Glenn Gould ",
+			"genres": ["Piano Virtuoso"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Glenn_Gould"
+		},
+		{
+			"name": "Oscar Peterson ",
+			"genres": ["Jazz"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Oscar_Peterson"
+		},
+		{
+			"name": "Steppenwolf ",
+			"genres": [" Hard Rock"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Steppenwolf_%28band%29"
+		}, {
+			"name": "Arcade Fire ",
+			"genres": ["Indie Rock"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Arcade_Fire"
+		},
+		{
+			"name": "Howard Shore",
+			"genres": [" Instrumental Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Howard_Shore"
+		},
+		{
+			"name": "Loreena McKennitt ",
+			"genres": ["Celtic Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Loreena_McKennitt"
+		}
+	],
+	"Cape Verde": [{
+			"name": "Cesaria Evora  ",
+			"genres": [" World Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Ces%C3%A1ria_%C3%89vora"
+		}, {
+			"name": "Tavares",
+			"genres": ["Disco"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Tavares_(group)"
+		},
+		{
+			"name": "Bau",
+			"genres": [" World Music"],
+			"wikiLink": "https://www.last.fm/music/Bau"
+		},
+		{
+			"name": "Antoninho Travadinha ",
+			"genres": [" Violin Virtuoso"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Antoninho_Travadinha"
+		}
+	],
+	"Chile": [{
+			"name": " Victor Jara",
+			"genres": ["Folk Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/V%C3%ADctor_Jara"
+		},
+		{
+			"name": " Violeta Parra ",
+			"genres": [" Folk Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Violeta_Parra"
+		},
+		{
+			"name": " Claudio Arrau",
+			"genres": [" Piano Virtuoso"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Claudio_Arrau"
+		},
+		{
+			"name": " Inti-Illimani ",
+			"genres": ["Folk Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Inti-Illimani"
+		},
+		{
+			"name": " Los Tres  ",
+			"genres": ["Alternative Rock"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Los_Tres"
+		},
+		{
+			"name": " Los Jaivas ",
+			"genres": [" Progressive Rock"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Los_Jaivas"
+		}, {
+			"name": "Los Prisioneros",
+			"genres": [" New Wave"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Los_Prisioneros"
+		},
+		{
+			"name": "Quilapayun",
+			"genres": ["Folk Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Howard_Shore"
+		}
+	],
+	"China": [{
+			"name": "  Yo Yo Ma",
+			"genres": ["Cello Virtuoso"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Yo-Yo_Ma"
+		},
+		{
+			"name": " Tan Dun ",
+			"genres": [" Classical Composer"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Tan_Dun"
+		},
+		{
+			"name": "Guan Pinghu",
+			"genres": ["Guqin Virtuoso"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Guan_Pinghu"
+		},
+		{
+			"name": " Zha Fuxi",
+			"genres": ["Guqin Virtuoso"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Zha_Fuxi"
+		},
+		{
+			"name": "Wu Jinglue",
+			"genres": ["Guqin Virtuoso"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Wu_Jingl%C3%BCe"
+		},
+		{
+			"name": "Zhou Xuan",
+			"genres": ["Traditional Pop Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Zhou_Xuan"
+		}, {
+			"name": "Li Xiangting",
+			"genres": [" Guqin Virtuoso"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Li_Xiangting"
+		},
+		{
+			"name": "Zhang Ziqian",
+			"genres": ["Guqin Virtuoso"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Zhang_Ziqian"
+		},
+		{
+			"name": "Lei Qiang",
+			"genres": ["Folk Music"],
+			"wikiLink": "https://www.last.fm/music/Lei+Qiang"
+		},
+		{
+			"name": "Lu Chunling ",
+			"genres": ["Flute Virtuoso"],
+			"wikiLink": "https://www.last.fm/music/Lu%20Chunling"
+		},
+		{
+			"name": "Rebecca Pan",
+			"genres": ["Traditional Pop Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Rebecca_Pan"
+		},
+		{
+			"name": "Faye Wong",
+			"genres": ["Pop Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Faye_Wong"
+		},
+		{
+			"name": "Cui Jian",
+			"genres": [" Rock Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Cui_Jian"
+		},
+		{
+			"name": "Fou T'song ",
+			"genres": ["Virtuoso Pianist"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Fou_Ts%27ong"
+		}, {
+			"name": "Liu Tianhua ",
+			"genres": ["Virtuoso Pianist"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Liu_Tianhua"
+		},
+		{
+			"name": "Lu Wencheng Teresa Teng",
+			"genres": ["Folk Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/L%C3%BC_Wencheng"
+		},
+		{
+			"name": " Fu Xuezhai",
+			"genres": ["Folk Music"],
+			"wikiLink": "https://www.last.fm/tr/music/Fu+Xuezhai"
+		},
+		{
+			"name": " Liu Dehai",
+			"genres": [" Pipa Virtuoso"],
+			"wikiLink": "https://www.last.fm/music/Wu%20Wenguang"
+		},
+		{
+			"name": "Wu Wenguang",
+			"genres": ["Guzheng Virtuoso"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Guan_Pinghu"
+		},
+		{
+			"name": " Cao Zheng ",
+			"genres": ["Guqin Virtuoso"],
+			"wikiLink": "https://www.last.fm/music/Cao%20Zheng"
+		},
+		{
+			"name": "Yao Lee",
+			"genres": ["Traditional Pop Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Yao_Lee"
+		},
+		{
+			"name": "Lin Shicheng",
+			"genres": ["Pipa Virtuoso "],
+			"wikiLink": "https://www.last.fm/music/Lin%20Shicheng"
+		}, {
+			"name": " Sun Yude ",
+			"genres": ["Pipa Virtuoso"],
+			"wikiLink": "https://www.last.fm/tr/music/Sun+Yude"
+		},
+		{
+			"name": "Min Huifen",
+			"genres": ["Folk Music"],
+			"wikiLink": "https://www.last.fm/music/Min%20Huifen"
+		},
+		{
+			"name": "Xinghai Xian",
+			"genres": ["Classical Composer"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Xian_Xinghai"
+		},
+		{
+			"name": "Wu Yingyin ",
+			"genres": ["Traditional Pop"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Wu_Yingyin"
+		},
+		{
+			"name": "A Bing ",
+			"genres": ["Erhu Virtuoso"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Abing"
+		},
+		{
+			"name": "Wu Zhaoji",
+			"genres": ["Guqin Virtuoso"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Wu_Zhaoji"
+		},
+		{
+			"name": "Hwang Yau tai ",
+			"genres": ["Classical Composer"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Hwang_Yau-tai"
+		},
+		{
+			"name": "Wang Luobin",
+			"genres": ["Folk Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Wang_Luobin"
+		}, {
+			"name": "Anna Guo ",
+			"genres": ["Yangqin Virtuoso"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Anna_Guo"
+		},
+		{
+			"name": " Li Tingsong",
+			"genres": ["Pipa Virtuoso"],
+			"wikiLink": "https://www.last.fm/tr/music/Li+Tingsong"
+		},
+		{
+			"name": " Liang Tsai-Ping ",
+			"genres": ["Guzheng Virtuoso"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Liang_Tsai-Ping"
+		},
+		{
+			"name": "The Guo Brothers",
+			"genres": ["Folk Music"],
+			"wikiLink": "https://www.last.fm/music/The+Guo+Brothers"
+		},
+		{
+			"name": "Liu Changfu",
+			"genres": ["Erhu Virtuoso"],
+			"wikiLink": "https://www.last.fm/music/Liu%20Changfu"
+		},
+		{
+			"name": "Zhang Chu",
+			"genres": ["Pop Rock"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Zhang_Chu"
+		},
+		{
+			"name": "Hu Tianquan",
+			"genres": [" Sheng Virtuoso"],
+			"wikiLink": "https://www.last.fm/music/Hu%20Tianquan"
+		},
+		{
+			"name": "Chou Wen-chung",
+			"genres": ["Classical Composer "],
+			"wikiLink": "https://en.wikipedia.org/wiki/Chou_Wen-chung"
+		}, {
+			"name": " Bai Guang ",
+			"genres": ["Traditional Pop Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Bai_Guang"
+		},
+		{
+			"name": "Dou Wei",
+			"genres": [" Post-Rock"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Dou_Wei"
+		}
+	],
+	"Colombia": [{
+			"name": "Carlos Vives",
+			"genres": [" Vallenato"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Carlos_Vives"
+		},
+		{
+			"name": "Shakira",
+			"genres": ["Pop", "rock", "Latin "],
+			"wikiLink": "https://en.wikipedia.org/wiki/Shakira"
+		}, {
+			"name": " Lucho Bermudez ",
+			"genres": ["Instrumental Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Lucho_Berm%C3%BAdez"
+		},
+		{
+			"name": "Guillermo Buitrago",
+			"genres": [" Vallenato"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Guillermo_Buitrago"
+		}
+	],
+	"Costa Rica": [{
+		"name": "Chavela Vargas",
+		"genres": [" Folk Music"],
+		"wikiLink": "https://en.wikipedia.org/wiki/Chavela_Vargas"
+	}],
+	"Croatia": [{
+			"name": "Helen Merrill",
+			"genres": ["  Vocal Jazz"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Helen_Merrill"
+		},
+		{
+			"name": "Azra",
+			"genres": ["Rock Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Azra"
+		}, {
+			"name": " Prljavo Kazaliste ",
+			"genres": ["Pop/Rock"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Prljavo_kazali%C5%A1te"
+		},
+		{
+			"name": "Ivo Pogorelich",
+			"genres": [" Piano Virtuoso"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Ivo_Pogoreli%C4%87"
+		}
+	],
+	"Cuba": [{
+			"name": "Ruben Gonzalez",
+			"genres": ["  Latin Jazz"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Rub%C3%A9n_Gonz%C3%A1lez_%28pianist%29"
+		},
+		{
+			"name": "Silvio Rodriguez",
+			"genres": ["New Song Musician"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Silvio_Rodr%C3%ADguez"
+		}, {
+			"name": " Chucho Valdes ",
+			"genres": ["Latin Jazz"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Chucho_Vald%C3%A9s"
+		},
+		{
+			"name": "Carlos Puebla",
+			"genres": ["Bolero"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Carlos_Puebla"
+		}
+	],
+	"Cyprus": [{
+			"name": " Manos Loizos ",
+			"genres": ["Folk Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Manos_Lo%C3%AFzos"
+		},
+		{
+			"name": "Alkinoos Ioannidis",
+			"genres": ["Folk Rock"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Alkinoos_Ioannidis"
+		}
+	],
+	"Czech Republic": [{
+			"name": "Antonin Dvorak",
+			"genres": [" Classical Music Composer"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Anton%C3%ADn_Dvo%C5%99%C3%A1k"
+		},
+		{
+			"name": "Bedrich Smetana",
+			"genres": ["Classical Music Composer"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Bed%C5%99ich_Smetana"
+		}, {
+			"name": " Jan Dismas Zelenka ",
+			"genres": ["Classical Music Composer"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Jan_Dismas_Zelenka"
+		},
+		{
+			"name": "Leos Janacek ",
+			"genres": ["Classical Music Composer"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Leo%C5%A1_Jan%C3%A1%C4%8Dek"
+		}
+	],
+	"Denmark": [{
+			"name": "Carl Nielsen",
+			"genres": [" Classical Composer"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Carl_Nielsen"
+		},
+		{
+			"name": "Mercyful Fate",
+			"genres": [" Heavy Metal"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Mercyful_Fate"
+		}, {
+			"name": " Johann Peter Emilius Hartmann  ",
+			"genres": ["Classical Composer"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Johan_Peter_Emilius_Hartmann"
+		},
+		{
+			"name": ". Jesper Kyd  ",
+			"genres": ["Ambient"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Jesper_Kyd"
+		}
+	],
+	"Dominica": [{
+			"name": "Konono",
+			"genres": [" African Pop Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Konono_N%C2%BA1"
+		},
+		{
+			"name": "Franco and OK Jazz",
+			"genres": ["World Music"],
+			"wikiLink": "https://kenyapage.net/franco/"
+		}, {
+			"name": " Kanda Bongo Man  ",
+			"genres": [" African Pop Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Kanda_Bongo_Man"
+		},
+		{
+			"name": "Tabu Ley Rochereau ",
+			"genres": ["World Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Tabu_Ley_Rochereau"
+		}
+	],
+	"Dominican Republic": [{
+			"name": "Julian Jay Savarin ",
+			"genres": [" Progressive Rock"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Juan_Luis_Guerra"
+		},
+		{
+			"name": "Juan Luis Guerra and 440 ",
+			"genres": ["Bachata, Merengue"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Julian_Jay_Savarin"
+		},
+		{
+			"name": "Johnny Pacheco",
+			"genres": ["Salsa"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Johnny_Pacheco"
+		},
+		{
+			"name": "Michel Camilo",
+			"genres": ["Latin Jazz"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Michel_Camilo"
+		}
+	],
+	"Ecuador": [{
+			"name": "Julio Jaramillo",
+			"genres": ["Bolero Singer"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Julio_Jaramillo"
+		},
+		{
+			"name": "Olimpo Cardenas ",
+			"genres": [" Bolero Singer"],
+			"wikiLink": "https://es.wikipedia.org/wiki/Olimpo_C%C3%A1rdenas"
+		}
+	],
+	"Egypt": [{
+			"name": "Oum Kalthoum ",
+			"genres": [" Traditional Arabic Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Umm_Kulthum"
+		},
+		{
+			"name": "Mohamed Abdel Wahab ",
+			"genres": [" Traditional Arabic Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Mohammed_Abdel_Wahab"
+		},
+		{
+			"name": "Hamza El Din   ",
+			"genres": ["Folk Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Hamza_El_Din"
+		},
+		{
+			"name": "Abdel Halim Hafez ",
+			"genres": [" Traditional Arabic Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Abdel_Halim_Hafez"
+		}
+	],
+	"England": [{
+			"name": " The Beatles ",
+			"genres": ["Pop Rock"],
+			"wikiLink": "https://en.wikipedia.org/wiki/The_Beatles"
+		},
+		{
+			"name": "Rolling Stones ",
+			"genres": [" Rock"],
+			"wikiLink": "https://en.wikipedia.org/wiki/The_Rolling_Stones"
+		},
+		{
+			"name": "Led Zeppelin   ",
+			"genres": ["Hard Rock"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Pink_Floyd"
+		},
+		{
+			"name": "Pink Floyd  ",
+			"genres": [" Progressive Rock"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Led_Zeppelin"
+		}
+	],
+	"Eritrea": [{
+			"name": "Tewelde Redda ",
+			"genres": ["World Music"],
+			"wikiLink": "https://www.discogs.com/artist/1220082-Tewelde-Redda"
+		},
+		{
+			"name": "Tsehaytu Beraki",
+			"genres": [" World Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Tsehaytu_Beraki"
+		}
+	],
+	"Estonia": [{
+			"name": "Arvo Part",
+			"genres": ["Minimalist Composer"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Arvo_P%C3%A4rt"
+		},
+		{
+			"name": "Eduard Tubin",
+			"genres": ["Classical Composer"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Eduard_Tubin"
+		}
+	],
+	"Ethiopia": [{
+			"name": "  Mulatu Astatqe ",
+			"genres": ["Ethiopian Jazz"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Mulatu_Astatke"
+		},
+		{
+			"name": "Mahmoud Ahmed ",
+			"genres": [" Ethiopian Jazz"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Mahmoud_Ahmed"
+		},
+		{
+			"name": "Tesfa Maryam Kidane ",
+			"genres": [" Ethiopian Jazz"],
+			"wikiLink": "https://www.last.fm/music/T%C3%A8sfa-Maryam+Kidan%C3%A9?setlang=en"
+		},
+		{
+			"name": "Emahoy Tsegue-Maryam Guebrou  ",
+			"genres": [" Jazz"],
+			"wikiLink": "https://boingboing.net/2010/03/19/emahoy-tsegue-maryam-1.html"
+		}
+	],
+	"Finland": [{
+			"name": " Jean Sibelius ",
+			"genres": ["Classical Music Composer"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Jean_Sibelius"
+		},
+		{
+			"name": "Nightwish",
+			"genres": ["  Symphonic Metal"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Nightwish"
+		},
+		{
+			"name": "Amorphis",
+			"genres": [" Death Metal"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Amorphis"
+		},
+		{
+			"name": "Tapio Rautavaara ",
+			"genres": ["  Traditional Pop"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Tapio_Rautavaara"
+		}
+	],
+	"France": [{
+			"name": " Claude Debussy  ",
+			"genres": ["Classical Music Composer"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Claude_Debussy"
+		},
+		{
+			"name": "Hector Berlioz",
+			"genres": ["  Classical Music Composer"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Hector_Berlioz"
+		},
+		{
+			"name": "Camille Saint-Saens",
+			"genres": [" Classical Music Composer"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Camille_Saint-Sa%C3%ABns"
+		},
+		{
+			"name": "Erik Satie ",
+			"genres": ["Classical Music Composer"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Erik_Satie"
+		}
+	],
+	"Gabon": [{
+			"name": " Pierre Akendengue ",
+			"genres": ["African Popular Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Pierre_Akendengu%C3%A9"
+		},
+		{
+			"name": "Pape Nziengui",
+			"genres": [" Bwiti"],
+			"wikiLink": "https://www.youtube.com/watch?v=oMK50YjfitQ"
+		},
+		{
+			"name": "Vyckoss, Vickos Edondo",
+			"genres": ["African Popular Music"],
+			"wikiLink": "https://www.youtube.com/watch?v=8J6y0l0W5iQ"
+		},
+		{
+			"name": "Les Diablotins",
+			"genres": ["African Popular Music"],
+			"wikiLink": "https://www.youtube.com/watch?v=JJDrcoZEpfA"
+		}
+	],
+	"Gambia": [{
+			"name": "Super Eagles",
+			"genres": ["World Music"],
+			"wikiLink": "https://www.last.fm/tr/music/Super+Eagles"
+		},
+		{
+			"name": "Tata Dindin",
+			"genres": ["Kora Player"],
+			"wikiLink": "https://www.last.fm/tr/music/Tata+Dindin"
+		}
+	],
+	"Georgia": [{
+			"name": "Hamlet Gonashvili",
+			"genres": ["Folk Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Hamlet_Gonashvili"
+		},
+		{
+			"name": "Giya Kancheli",
+			"genres": [" Classical Music Composer"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Giya_Kancheli"
+		}
+	],
+	"Germany": [{
+			"name": " Johann Sebastian Bach ",
+			"genres": ["Classical Music Composer"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Johann_Sebastian_Bach"
+		},
+		{
+			"name": "Ludwig van Beethoven",
+			"genres": [" Classical Music Composer"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Ludwig_van_Beethoven"
+		},
+		{
+			"name": "Georg Friedrich Handel ",
+			"genres": ["Classical Music Composer"],
+			"wikiLink": "https://en.wikipedia.org/wiki/George_Frideric_Handel"
+		},
+		{
+			"name": "Johannes Brahms",
+			"genres": ["Classical Music Composer"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Johannes_Brahms"
+		}
+	],
+	"Ghana": [{
+			"name": " Oscar Sulley and the Uhuru Dance Band",
+			"genres": ["Afrobeat"],
+			"wikiLink": "https://www.last.fm/tr/music/Oscar+Sulley+&+The+Uhuru+Dance+Band"
+		},
+		{
+			"name": "Gyedu Blay Ambolley and the Steneboofs ",
+			"genres": [" Classical Music Composer"],
+			"wikiLink": "https://www.last.fm/tr/music/Gyedu%2BBlay%2BAmbolley%2B%2526%2Bthe%2BSteneboofs"
+		},
+		{
+			"name": "Ebo Taylor  ",
+			"genres": ["Afrobeat"],
+			"wikiLink": "https://www.last.fm/tr/music/Ebo+Taylor"
+		},
+		{
+			"name": "African Head Charge",
+			"genres": ["Dub"],
+			"wikiLink": "https://en.wikipedia.org/wiki/African_Head_Charge"
+		}
+	],
+	"Gibraltar": [{
+		"name": " Albert Hammond ",
+		"genres": ["Pop Rock"],
+		"wikiLink": "https://en.wikipedia.org/wiki/Albert_Hammond"
+	}],
+	"Greece": [{
+			"name": " Stelios Kazantzidis",
+			"genres": ["Laiko"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Stelios_Kazantzidis"
+		},
+		{
+			"name": " Manolis Angelopoulos",
+			"genres": ["Laiko"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Manolis_Angelopoulos"
+		},
+		{
+			"name": "Haris Alexiou  ",
+			"genres": ["Laiko"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Haris_Alexiou"
+		},
+		{
+			"name": "George Dalaras",
+			"genres": ["Laiko"],
+			"wikiLink": "https://en.wikipedia.org/wiki/George_Dalaras"
+		}
+	],
+	"Grenada": [{
+		"name": "Mighty Sparrow",
+		"genres": ["Calypso"],
+		"wikiLink": "https://en.wikipedia.org/wiki/Mighty_Sparrow"
+	}],
+	"Guadelope": [{
+		"name": " Henri Salvador",
+		"genres": ["Chanson"],
+		"wikiLink": "https://en.wikipedia.org/wiki/Henri_Salvador"
+	}],
+	"Guinea": [{
+			"name": " Bembeya Jazz National",
+			"genres": ["African Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Bembeya_Jazz_National"
+		},
+		{
+			"name": " Momo Wandel Soumah ",
+			"genres": [" World Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Momo_Wandel_Soumah"
+		},
+		{
+			"name": "Balla Et Ses Balladins ",
+			"genres": [" World Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Balla_et_ses_Balladins"
+		},
+		{
+			"name": "Orchestre de la Paillote",
+			"genres": ["World Music"],
+			"wikiLink": "https://www.last.fm/music/Orchestre%20de%20la%20Paillote"
+		}
+	],
+	"Guyana": [{
+		"name": "Mad Professor",
+		"genres": ["Dub", "reggae", "jungle"],
+		"wikiLink": "https://en.wikipedia.org/wiki/Mad_Professor"
+	}],
+	"Hawaii": [{
+			"name": " Gabby Pahinui",
+			"genres": [" Hawaian Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Gabby_Pahinui"
+		},
+		{
+			"name": " Israel Kamakawiwo'ole ",
+			"genres": [" Hawaian Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Israel_Kamakawiwo%CA%BBole"
+		},
+		{
+			"name": "Arthur Lyman  ",
+			"genres": [" Exotica"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Arthur_Lyman"
+		},
+		{
+			"name": "Kalama's Quartet",
+			"genres": ["Hawaian Music"],
+			"wikiLink": "https://www.last.fm/music/Kalama%27s+Quartet"
+		}
+	],
+	"Hungary": [{
+			"name": " Franz Liszt ",
+			"genres": [" Virtuoso Pianist, Composer"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Franz_Liszt"
+		},
+		{
+			"name": " Bela Bartok ",
+			"genres": [" Classical Music Composer"],
+			"wikiLink": "https://en.wikipedia.org/wiki/B%C3%A9la_Bart%C3%B3k"
+		},
+		{
+			"name": "Gyorgy Ligeti  ",
+			"genres": [" Classical Music Composer"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Gy%C3%B6rgy_Ligeti"
+		},
+		{
+			"name": "Miklos Rozsa",
+			"genres": [" Classical Music Composer"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Mikl%C3%B3s_R%C3%B3zsa"
+		}
+	],
+	"Iceland": [{
+			"name": " Bjork ",
+			"genres": ["Electronic Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Bj%C3%B6rk"
+		},
+		{
+			"name": " Sigur Ros",
+			"genres": [" Post Rock"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Sigur_R%C3%B3s"
+		},
+		{
+			"name": "Emiliana Torrini ",
+			"genres": [" Indie Pop"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Emil%C3%ADana_Torrini"
+		},
+		{
+			"name": "mum",
+			"genres": [" Electronic Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/M%C3%BAm"
+		}
+	],
+	"India": [{
+			"name": " Lata Mangeshkar  ",
+			"genres": ["Bollywood Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Lata_Mangeshkar"
+		},
+		{
+			"name": " Mohammed Rafi ",
+			"genres": [" Bollywood Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Mohammed_Rafi"
+		},
+		{
+			"name": "Asha Bhosle ",
+			"genres": [" Bollywood Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Asha_Bhosle"
+		},
+		{
+			"name": "Ravi Shankar ",
+			"genres": ["   Sitar Virtuoso"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Ravi_Shankar"
+		}
+	],
+	"Indonesia": [{
+			"name": " Ujang Suryana  ",
+			"genres": ["World Music"],
+			"wikiLink": "https://www.last.fm/tr/music/Ujang+Suryana"
+		},
+		{
+			"name": " The Tielman Brothers ",
+			"genres": [" Rock and Roll"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Tielman_Brothers"
+		},
+		{
+			"name": "Slank ",
+			"genres": ["Rock Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Slank"
+		},
+		{
+			"name": "Anggun ",
+			"genres": ["   Pop Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Anggun"
+		}
+	],
+	"Iran": [{
+			"name": " Haj Ghorban Soleimani  ",
+			"genres": ["Folk Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Haj_Ghorban_Soleimani"
+		},
+		{
+			"name": " Farid Farjad ",
+			"genres": [" Violin Virtuoso"],
+			"wikiLink": "https://www.last.fm/tr/music/Farid%20Farjad"
+		},
+		{
+			"name": " Sultan Veled ",
+			"genres": ["Turkish Classical Music Composer"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Sultan_Walad"
+		},
+		{
+			"name": "Mohammad Reza Shajarian ",
+			"genres": ["Folk Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Mohammad-Reza_Shajarian"
+		}
+	],
+	"Iraq": [{
+			"name": " Jamil Bashir  ",
+			"genres": ["Oud Virtuoso"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Jamil_Bachir"
+		},
+		{
+			"name": " Naseer Shamma ",
+			"genres": ["  Oud Virtuoso"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Naseer_Shamma"
+		},
+		{
+			"name": " Nazem Al-Ghazali ",
+			"genres": [" Traditional Arabic Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Nazem_al-Ghazali"
+		},
+		{
+			"name": "Saleh Al Kuwaiti ",
+			"genres": ["Violin Virtuoso"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Saleh_and_Daoud_Al-Kuwaity"
+		}
+	],
+	"Ireland": [{
+			"name": " U2   ",
+			"genres": [" Rock Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/U2"
+		},
+		{
+			"name": " Thin Lizzy ",
+			"genres": ["  Hard Rock"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Thin_Lizzy"
+		},
+		{
+			"name": " Morrissey ",
+			"genres": ["Alternative Rock"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Morrissey"
+		},
+		{
+			"name": "My Bloody Valentine",
+			"genres": ["Shoegaze"],
+			"wikiLink": "https://en.wikipedia.org/wiki/My_Bloody_Valentine_%28band%29"
+		}
+	],
+	"Isle of Man": [{
+			"name": " Bee Gees ",
+			"genres": [" Pop Rock"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Bee_Gees"
+		},
+		{
+			"name": "Harry Manx",
+			"genres": ["Blues"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Harry_Manx"
+		}
+	],
+	"Israel": [{
+			"name": " Ehud Banai ",
+			"genres": [" Folk Rock"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Ehud_Banai"
+		},
+		{
+			"name": " Meir Ariel  ",
+			"genres": ["  Folk Rock"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Meir_Ariel"
+		},
+		{
+			"name": " Ofra Haza ",
+			"genres": ["World Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Ofra_Haza"
+		},
+		{
+			"name": "Arik Einstein",
+			"genres": ["Pop/Rock"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Arik_Einstein"
+		},
+		{
+			"name": "Shlomo Artzi",
+			"genres": ["Pop/Rock"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Shlomo_Artzi"
+		}
+	],
+	"Italy": [{
+			"name": " Antonio Vivaldi ",
+			"genres": ["  Classical Music Composer"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Antonio_Vivaldi"
+		},
+		{
+			"name": " Claudio Monteverdi   ",
+			"genres": [" Classical Music Composer"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Claudio_Monteverdi"
+		},
+		{
+			"name": " Tomaso Giovanni Albinoni ",
+			"genres": [" Classical Music Composer"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Tomaso_Albinoni"
+		},
+		{
+			"name": "Giuseppe Verdi",
+			"genres": ["Classical Music Composer"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Giuseppe_Verdi"
+		}
+	],
+	"Ivory Coast": [{
+			"name": " Tiken Jah Fakoly   ",
+			"genres": [" Reggae"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Tiken_Jah_Fakoly"
+		},
+		{
+			"name": " Alpha Blondy ",
+			"genres": [" Reggae"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Alpha_Blondy"
+		},
+		{
+			"name": "Manu Katche",
+			"genres": ["Jazz"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Manu_Katch%C3%A9"
+		}
+	],
+	"Jamaica": [{
+			"name": "  Bob Marley and The Wailers ",
+			"genres": [" Reggae"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Bob_Marley_and_the_Wailers"
+		},
+		{
+			"name": "  Lee Scratch Perry ",
+			"genres": ["Reggae"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Lee_%22Scratch%22_Perry"
+		},
+		{
+			"name": "  Peter Tosh ",
+			"genres": [" Reggae"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Peter_Tosh"
+		},
+		{
+			"name": "Toots and the Maytals",
+			"genres": ["Reggae"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Toots_and_the_Maytals"
+		}
+	],
+	"Japan": [{
+			"name": " Joe Hisaishi ",
+			"genres": [" Instrumental Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Joe_Hisaishi"
+		},
+		{
+			"name": "  Nobuo Uematsu ",
+			"genres": ["New Age"],
+			"wikiLink": "http://en.wikipedia.org/wiki/Nobuo_Uematsu"
+		},
+		{
+			"name": "  Yoko Kanno ",
+			"genres": [" New Age"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Yoko_Kanno"
+		},
+		{
+			"name": "Ryuichi Sakamoto",
+			"genres": ["Instrumental Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Ryuichi_Sakamoto"
+		}
+	],
+	"Kazakhstan": [{
+		"name": "Mamer",
+		"genres": ["Folk Music"],
+		"wikiLink": "https://www.last.fm/tr/music/Mamer"
+	}],
+	"Kenya": [{
+			"name": "  Matata ",
+			"genres": ["Afrobeat"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Matat%C4%81"
+		},
+		{
+			"name": " Ayub Ogada ",
+			"genres": [" World Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Ayub_Ogada"
+		},
+		{
+			"name": "Daniel Owino Misiani and Shirati Jazz Band",
+			"genres": ["World Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Daniel_Owino_Misiani"
+		}
+	],
+	"Kosovo": [{
+		"name": "Dervish Shaqa",
+		"genres": ["Folk Music"],
+		"wikiLink": "https://www.amazon.co.uk/Dervish-Shaqa-Folk-Digital-Music/s?k=Dervish+Shaqa&rh=n%3A78051031"
+	}],
+	"Krygyzstan": [{
+			"name": "Toktogul Satilganov ",
+			"genres": [" Folk Music"],
+			"wikiLink": "https://fr.wikipedia.org/wiki/Toktogul_Satilganov"
+		},
+		{
+			"name": " Salamat Sadikova",
+			"genres": ["Folk Music"],
+			"wikiLink": "http://www.kyrgyzmusic.com/kyrgyz_recordings.html"
+		}
+	],
+	"Kurdistan": [{
+			"name": " Said Ali Asghari ",
+			"genres": [" Iran"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Ali-Reza_Asgari"
+		},
+		{
+			"name": "  Kawis Axa  ",
+			"genres": ["Iraq"],
+			"wikiLink": "https://www.youtube.com/watch?v=1IWZ1MTvxCQ"
+		},
+		{
+			"name": "  Shahram Nazeri ",
+			"genres": [" Iran"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Shahram_Nazeri"
+		},
+		{
+			"name": "Kayhan Kalhor",
+			"genres": ["Iran"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Kayhan_Kalhor"
+		}
+	],
+	"Latvia": [{
+			"name": "  Gidon Kremer",
+			"genres": [" Violin Virtuoso"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Gidon_Kremer"
+		},
+		{
+			"name": "  Mariss Jansons  ",
+			"genres": ["Classical Music Conductor"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Mariss_Jansons"
+		},
+		{
+			"name": " Mischa Maisky ",
+			"genres": [" Virtuoso Cellist"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Mischa_Maisky"
+		},
+		{
+			"name": "Prata Vetra",
+			"genres": ["Brainstorm - Pop/Rock"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Brainstorm_(Latvian_band)"
+		}
+	],
+	"Lebanon": [{
+			"name": " Fairouz",
+			"genres": ["Arabic Pop Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Fairuz"
+		},
+		{
+			"name": " Wadih El Safi  ",
+			"genres": ["Traditional Arabic Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Wadih_El_Safi"
+		},
+		{
+			"name": " Ziad Rahbani ",
+			"genres": [" World Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Ziad_Rahbani"
+		},
+		{
+			"name": "Tony Hanna",
+			"genres": [" Traditional Arabic Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Tony_Hanna"
+		}
+	],
+	"Liberia": [{
+		"name": "Congress-Woman Malinda Jackson Parker ",
+		"genres": ["  World Music]"],
+		"wikiLink": "https://www.last.fm/tr/music/Congress-Woman+Malinda+Jackson+Parker"
+	}],
+	"Libya": [{
+		"name": " Ahmed Fakroun",
+		"genres": ["  World Music]"],
+		"wikiLink": "https://en.wikipedia.org/wiki/Ahmed_Fakroun"
+	}],
+	"Lithuania": [{
+			"name": " Jascha Heifetz",
+			"genres": ["Violin Virtuoso"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Jascha_Heifetz"
+		},
+		{
+			"name": " Al Jolson  ",
+			"genres": ["Traditional Pop"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Al_Jolson"
+		},
+		{
+			"name": " Clara Rockmore  ",
+			"genres": ["Classical Music Composer"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Clara_Rockmore"
+		},
+		{
+			"name": "Cesar Cui",
+			"genres": ["  Classical Music Composer"],
+			"wikiLink": "https://en.wikipedia.org/wiki/C%C3%A9sar_Cui"
+		}
+	],
+	"Macedonia": [{
+			"name": " Esma Redzepova",
+			"genres": ["World Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Esma_Red%C5%BEepova"
+		},
+		{
+			"name": "  Anastasia ",
+			"genres": ["Folk Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Anastasia_%28band%29"
+		},
+		{
+			"name": " Kocani Orkestar  ",
+			"genres": ["Balkan Brass Band"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Ko%C4%8Dani_Orkestar"
+		},
+		{
+			"name": "Leb i Sol ",
+			"genres": ["  Jazz Rock"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Leb_i_sol"
+		}
+	],
+	"Madagascar": [{
+			"name": "  Tarika  ",
+			"genres": ["World Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Tarika_%28musical_group%29"
+		},
+		{
+			"name": " Rakotozafy",
+			"genres": [" Zither Virtuoso"],
+			"wikiLink": "https://www.last.fm/tr/music/Rakotozafy"
+		}
+	],
+	"Malawi": [{
+		"name": " Dick Khoza ",
+		"genres": ["Afrobeat"],
+		"wikiLink": "https://www.last.fm/tr/music/Dick+Khoza"
+	}],
+	"Malaysia": [{
+			"name": "   Search  ",
+			"genres": ["Rock Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Search_%28band%29"
+		},
+		{
+			"name": " P. Ramlee",
+			"genres": [" Traditional Pop"],
+			"wikiLink": "https://en.wikipedia.org/wiki/P._Ramlee"
+		}
+	],
+	"Mali": [{
+			"name": " Ali Farka Toure",
+			"genres": ["World Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Ali_Farka_Tour%C3%A9"
+		},
+		{
+			"name": " Boubacar Traore ",
+			"genres": ["Folk Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Boubacar_Traor%C3%A9"
+		},
+		{
+			"name": " Tinariwen  ",
+			"genres": ["World Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Tinariwen"
+		},
+		{
+			"name": "Habib Koite and Bamada ",
+			"genres": ["  African Music"],
+			"wikiLink": "https://www.last.fm/tr/music/Habib%2BKoit%25C3%25A9%2B%2526%2BBamada"
+		}
+	],
+	"Mauritania": [{
+			"name": " Dimi Mint Abba  ",
+			"genres": ["Folk Music"],
+			"wikiLink": "https://www.last.fm/tr/music/Dimi+Mint+Abba"
+		},
+		{
+			"name": " Malouma ",
+			"genres": [" World Music"],
+			"wikiLink": "https://www.last.fm/tr/music/Malouma"
+		}
+	],
+	"Mexico": [{
+			"name": " Ritchie Valens",
+			"genres": ["Rock and Roll"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Ritchie_Valens"
+		},
+		{
+			"name": " Carlos Santana  ",
+			"genres": ["Virtuoso Guitarist"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Carlos_Santana"
+		},
+		{
+			"name": " Los Panchos  ",
+			"genres": ["Bolero"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Los_Panchos"
+		},
+		{
+			"name": "Agustin Lara  ",
+			"genres": ["  Bolero"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Agust%C3%ADn_Lara"
+		}
+	],
+	"Moldova": [{
+			"name": "  Anton Rubinstein",
+			"genres": ["Virtuoso Pianist"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Anton_Rubinstein"
+		},
+		{
+			"name": "Eugen Doga ",
+			"genres": ["Instrumental"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Eugen_Doga"
+		},
+		{
+			"name": " Dimitrie Cantemir",
+			"genres": ["Turkish Classical Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Dimitrie_Cantemir"
+		},
+		{
+			"name": "Zdob si Zdub",
+			"genres": ["  Ska Punk"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Zdob_%C8%99i_Zdub"
+		}
+	],
+	"Monaco": [{
+		"name": " Leo Ferre",
+		"genres": [" Chanson"],
+		"wikiLink": "https://en.wikipedia.org/wiki/L%C3%A9o_Ferr%C3%A9"
+	}],
+	"Mongolia": [{
+			"name": "Egschiglen",
+			"genres": ["Folk Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Egschiglen"
+		},
+		{
+			"name": " Oleg Kuular",
+			"genres": ["Folk Music "],
+			"wikiLink": "https://www.last.fm/music/Oleg%20Kuular"
+		},
+		{
+			"name": "N. Jantsannorov",
+			"genres": ["  Instrumental Music"],
+			"wikiLink": "https://www.last.fm/music/N.%20Jantsannorov"
+		}
+	],
+	"Montenegro": [{
+		"name": "Janko Nilovic",
+		"genres": ["  Instrumental Music"],
+		"wikiLink": "https://www.last.fm/tr/music/Janko%20Nilovic"
+	}],
+	"Morocco": [{
+			"name": "  Nass El Ghiwane",
+			"genres": ["Traditional Moroccon Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Nass_El_Ghiwane"
+		},
+		{
+			"name": "Majid Bekkas ",
+			"genres": ["orld Music", "Gnawa", "Folk Music", "Blues"],
+			"wikiLink": "https://www.last.fm/music/Majid%20Bekkas"
+		},
+		{
+			"name": " Samira Said ",
+			"genres": [" Folk-Pop Singer"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Samira_Said"
+		},
+		{
+			"name": " Najat Aatabou",
+			"genres": ["  World Music Singer, Folk Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Najat_Aatabou"
+		}
+	],
+	"Mozambique": [{
+			"name": " Al Bowlly ",
+			"genres": [" Traditional Pop"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Al_Bowlly"
+		},
+		{
+			"name": "Mariza",
+			"genres": ["  Fado"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Mariza"
+		}
+	],
+	"Myanmar": [{
+		"name": "U Ba Than",
+		"genres": ["  World Music"],
+		"wikiLink": "https://www.last.fm/music/U%20Ba%20Than"
+	}],
+	"Nepal": [{
+			"name": " Udit Narayan ",
+			"genres": ["  Bollywood Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Udit_Narayan"
+		},
+		{
+			"name": "Tara Devi",
+			"genres": ["   Folk Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Tara_Devi_%28singer%29"
+		}
+	],
+	"Netherlands": [{
+			"name": "  Jacobus Clemens non Papa",
+			"genres": ["Classical Music Composer"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Jacob_Clemens_non_Papa"
+		},
+		{
+			"name": "Jan Pieterszoon Sweelinck",
+			"genres": ["Classical Music Composer"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Jan_Pieterszoon_Sweelinck"
+		},
+		{
+			"name": " Jacob Obrecht  ",
+			"genres": [" Classical Music Composer"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Jacob_Obrecht"
+		},
+		{
+			"name": " Golden Earring",
+			"genres": [" Hard Rock"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Golden_Earring"
+		}
+	],
+	"New Zealand": [{
+			"name": "Kiri te Kanawa",
+			"genres": [" Opera Singer"],
+			"wikiLink": "hhttps://en.wikipedia.org/wiki/Kiri_Te_Kanawa"
+		},
+		{
+			"name": " Fat Freddy's Drop ",
+			"genres": [" Dub"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Fat_Freddy%27s_Drop"
+		}
+	],
+	"Nicaragua": [{
+		"name": "  Carlos Mejia Godoy ",
+		"genres": [" Singer/Songwriter"],
+		"wikiLink": "https://en.wikipedia.org/wiki/Carlos_Mej%C3%ADa_Godoy"
+	}],
+	"Niger": [{
+			"name": "Group Bombino",
+			"genres": [" World Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Group_Bombino"
+		},
+		{
+			"name": "  Toumast ",
+			"genres": [" World Music"],
+			"wikiLink": "https://www.last.fm/music/Toumast"
+		}
+	],
+	"Nigeria": [{
+			"name": " Fela Kuti",
+			"genres": ["Afrobeat"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Fela_Kuti"
+		},
+		{
+			"name": "Tony Allen",
+			"genres": ["Afrobeat"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Tony_Allen_%28musician%29"
+		},
+		{
+			"name": "King Sunny Ade ",
+			"genres": [" African Pop Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/King_Sunny_Ad%C3%A9"
+		},
+		{
+			"name": " Peter King",
+			"genres": [" Afrobeat"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Peter_King_(Nigerian_musician)"
+		}
+	],
+	"North Ireland": [{
+			"name": " Van Morrison",
+			"genres": ["Folk Rock"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Van_Morrison"
+		},
+		{
+			"name": "The Undertones ",
+			"genres": ["Punk Rock"],
+			"wikiLink": "https://en.wikipedia.org/wiki/The_Undertones"
+		},
+		{
+			"name": "Gary Moore",
+			"genres": ["  Blues Rock"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Gary_Moore"
+		},
+		{
+			"name": " Them",
+			"genres": [" Rock Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Them_%28band%29"
+		}
+	],
+	"Norway": [{
+			"name": " Edvard Grieg",
+			"genres": ["Classical Music Composer"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Edvard_Grieg"
+		},
+		{
+			"name": "A-ha",
+			"genres": [" Synth Pop"],
+			"wikiLink": "https://en.wikipedia.org/wiki/A-ha"
+		},
+		{
+			"name": "Royksopp",
+			"genres": ["   Electronic Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/R%C3%B6yksopp"
+		},
+		{
+			"name": "Kings of Convenience",
+			"genres": [" Indie Pop"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Kings_of_Convenience"
+		}
+	],
+	"Osetia": [{
+		"name": "Valery Gergiev ",
+		"genres": [" Classical Music Conductor"],
+		"wikiLink": "https://en.wikipedia.org/wiki/Valery_Gergiev"
+	}],
+	"Pakistan": [{
+			"name": " Nusrat Fateh Ali Khan ",
+			"genres": ["World Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Nusrat_Fateh_Ali_Khan"
+		},
+		{
+			"name": " Sabri Brothers ",
+			"genres": [" World Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Sabri_Brothers"
+		},
+		{
+			"name": " Ghulam Ali",
+			"genres": ["   Ghazals"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Ghulam_Ali"
+		},
+		{
+			"name": " Abida Parveen",
+			"genres": [" World Music"],
+			"wikiLink": "http://en.wikipedia.org/wiki/Abida_Parveen"
+		}
+	],
+	"Palestine": [{
+			"name": " Simon Shaheen",
+			"genres": ["   Oud Virtuoso"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Simon_Shaheen"
+		},
+		{
+			"name": "Le Trio Joubran ",
+			"genres": [" World Music", "Oud Virtuosos"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Le_Trio_Joubran"
+		}
+	],
+	"Panama": [{
+			"name": "  Billy Cobham  ",
+			"genres": ["Salsa"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Billy_Cobham"
+		},
+		{
+			"name": " Ruben Blades",
+			"genres": [" Funk Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Rub%C3%A9n_Blades"
+		},
+		{
+			"name": "  Mandrill",
+			"genres": ["   Ghazals"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Mandrill_%28band%29"
+		},
+		{
+			"name": " Luis Russell",
+			"genres": [" Jazz"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Luis_Russell"
+		}
+	],
+	"Paraguay": [{
+		"name": "Agustin Barrios",
+		"genres": [" Classical Guitar Composer"],
+		"wikiLink": "https://en.wikipedia.org/wiki/Agust%C3%ADn_Barrios"
+	}],
+	"Peru": [{
+			"name": "  Yma Sumac  ",
+			"genres": [" Exotica"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Yma_Sumac"
+		},
+		{
+			"name": " Chabuca Granda",
+			"genres": [" Folk Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Chabuca_Granda"
+		},
+		{
+			"name": "  Susana Baca ",
+			"genres": ["   World Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Susana_Baca"
+		},
+		{
+			"name": "Arturo Zambo Cavero",
+			"genres": [" Folk Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Arturo_%22Zambo%22_Cavero"
+		}
+	],
+	"Philippines": [{
+			"name": "  Death Angel ",
+			"genres": [" Thrash Metal"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Death_Angel"
+		},
+		{
+			"name": " Joe Bataan",
+			"genres": [" Funk Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Joe_Bataan"
+		},
+		{
+			"name": " Lea Salonga ",
+			"genres": ["  Pop Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Lea_Salonga"
+		},
+		{
+			"name": "Eraserheads",
+			"genres": [" Pop/Rock"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Eraserheads"
+		}
+	],
+	"Poland": [{
+			"name": " Frederic Chopin  ",
+			"genres": [" Classical Music Composer"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Fr%C3%A9d%C3%A9ric_Chopin"
+		},
+		{
+			"name": " Arthur Rubinstein",
+			"genres": ["  Virtuoso Pianist"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Arthur_Rubinstein"
+		},
+		{
+			"name": "Krzysztof Penderecki ",
+			"genres": ["  Classical Music Composer"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Krzysztof_Penderecki"
+		},
+		{
+			"name": "Henryk Mikolaj Gorecki",
+			"genres": ["  Classical Music Composer"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Henryk_G%C3%B3recki"
+		}
+	],
+	"Portugal": [{
+			"name": "  Amalia Rodrigues",
+			"genres": [" Fado"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Am%C3%A1lia_Rodrigues"
+		},
+		{
+			"name": " Manuel Cardoso",
+			"genres": ["  Classical Music Composer"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Manuel_Cardoso"
+		},
+		{
+			"name": "Carlos Paredes",
+			"genres": ["  Virtuoso Guitarist"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Carlos_Paredes"
+		},
+		{
+			"name": "Duarte Lobo",
+			"genres": ["  Classical Music Composer"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Duarte_Lobo"
+		}
+	],
+	"Puerto Rico": [{
+			"name": "   Tito Puente",
+			"genres": [" Mambo"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Tito_Puente"
+		},
+		{
+			"name": " Ray Barretto ",
+			"genres": ["  Latin Jazz"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Ray_Barretto"
+		},
+		{
+			"name": "Hector Lavoe",
+			"genres": [" Salsa"],
+			"wikiLink": "https://en.wikipedia.org/wiki/H%C3%A9ctor_Lavoe"
+		},
+		{
+			"name": "Eddie Palmieri",
+			"genres": [" Salsa"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Eddie_Palmieri"
+		}
+	],
+	"Republic of the Congo": [{
+		"name": "Les Bantous de la Capitale",
+		"genres": [" African Pop"],
+		"wikiLink": "https://www.last.fm/music/Les+Bantous+de+la+Capitale"
+	}],
+	"Romania": [{
+			"name": "  George Enescu ",
+			"genres": ["  Classical Music Composer"],
+			"wikiLink": "https://en.wikipedia.org/wiki/George_Enescu"
+		},
+		{
+			"name": "  Dinu Lipatti ",
+			"genres": [" Virtuoso Pianist"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Dinu_Lipatti"
+		},
+		{
+			"name": "Ciprian Porumbescu",
+			"genres": [" Classical Music Composer"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Ciprian_Porumbescu"
+		},
+		{
+			"name": "Taraf de Haidouks",
+			"genres": [" Balkan Brass Band"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Taraf_de_Ha%C3%AFdouks"
+		}
+	],
+	"Russia": [{
+			"name": "  Pyotr Ilyich Tchaikovsky ",
+			"genres": ["  Classical Music Composer"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Pyotr_Ilyich_Tchaikovsky"
+		},
+		{
+			"name": " Modest Petrovich Mussorgsky ",
+			"genres": ["Classical Music Composer"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Modest_Mussorgsky"
+		},
+		{
+			"name": "Sergei Rachmaninoff",
+			"genres": ["Classical Music Composer"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Sergei_Rachmaninoff"
+		},
+		{
+			"name": "Igor Stravinsky",
+			"genres": [" Classical Music Composer"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Igor_Stravinsky"
+		}
+	],
+	"Saudi Arabia": [{
+			"name": "  Mohammed Abdu ",
+			"genres": ["  Traditional Arabic Music"],
+			"wikiLink": "https://www.last.fm/music/Mohammed+Abdu"
+		},
+		{
+			"name": " Abadi al-Johar ",
+			"genres": ["Oud Virtuoso"],
+			"wikiLink": "https://www.last.fm/music/Abadi+Al-Johar"
+		},
+		{
+			"name": "Talal Maddah",
+			"genres": ["Classical Music Composer"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Talal_Maddah"
+		}
+	],
+	"Scotland": [{
+			"name": "  Boards of Canada  ",
+			"genres": ["  Ambient"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Boards_of_Canada"
+		},
+		{
+			"name": " Donovan ",
+			"genres": ["Folk Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Donovan"
+		},
+		{
+			"name": "Belle and Sebastian  ",
+			"genres": [" Indie Pop"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Belle_and_Sebastian"
+		},
+		{
+			"name": "Rod Stewart",
+			"genres": [" Pop/Rock"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Rod_Stewart"
+		}
+	],
+	"Senegal": [{
+			"name": "  Orchestra Baobab  ",
+			"genres": ["   African Pop Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Orchestra_Baobab"
+		},
+		{
+			"name": " Youssou N'Dour   ",
+			"genres": ["African Pop Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Youssou_N%27Dour"
+		},
+		{
+			"name": "Thione Seck ",
+			"genres": [" African Pop Music "],
+			"wikiLink": "https://en.wikipedia.org/wiki/Thione_Seck"
+		},
+		{
+			"name": "Baaba Maal",
+			"genres": [" African Pop Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Baaba_Maal"
+		}
+	],
+	"Serbia": [{
+			"name": "  Ekatarina Velika",
+			"genres": ["   New Wave"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Ekatarina_Velika"
+		},
+		{
+			"name": "  Saban Bajramovic  ",
+			"genres": [" World Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/%C5%A0aban_Bajramovi%C4%87"
+		},
+		{
+			"name": "Djordje Balasevic ",
+			"genres": [" Singer/Songwriter "],
+			"wikiLink": "https://en.wikipedia.org/wiki/%C4%90or%C4%91e_Bala%C5%A1evi%C4%87"
+		},
+		{
+			"name": "Boban Markovic Orkestar ",
+			"genres": [" Balkan Brass Band"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Boban_Markovi%C4%87"
+		}
+	],
+	"Sierra Leone": [{
+			"name": "S. E. Rogie",
+			"genres": ["World Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/S._E._Rogie"
+		},
+		{
+			"name": " Geraldo Pino and The Heartbeats",
+			"genres": [" Afrobeat"],
+			"wikiLink": "https://www.last.fm/music/Geraldo%20Pino"
+		}
+	],
+	"Singapore": [{
+		"name": " Jacintha",
+		"genres": [" Vocal Jazz"],
+		"wikiLink": "https://en.wikipedia.org/wiki/Jacintha_Abisheganaden"
+	}],
+	"Slovakia": [{
+			"name": "  Hana Hegerova ",
+			"genres": [" Chanson"],
+			"wikiLink": "https://en.wikipedia.org/wiki/%C5%A0aban_Bajramovi%C4%87"
+		},
+		{
+			"name": "Lucia Popp",
+			"genres": [" Opera Singer "],
+			"wikiLink": "https://en.wikipedia.org/wiki/Lucia_Popp"
+		},
+		{
+			"name": "Ghymes",
+			"genres": ["World Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Ghymes"
+		}
+	],
+	"Slovenia": [{
+			"name": "  Hugo Wolf",
+			"genres": [" Classical Music Composer"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Hugo_Wolf"
+		},
+		{
+			"name": " Laibach  ",
+			"genres": [" Industrial Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Laibach"
+		},
+		{
+			"name": "Anton Dermota  ",
+			"genres": ["Opera Singer "],
+			"wikiLink": "https://en.wikipedia.org/wiki/Anton_Dermota"
+		},
+		{
+			"name": "Jacobus Gallus",
+			"genres": ["  Classical Music Composer"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Jacobus_Gallus"
+		}
+	],
+	"Somalia": [{
+		"name": "Maryam Mursal",
+		"genres": ["  World Music"],
+		"wikiLink": "https://en.wikipedia.org/wiki/Maryam_Mursal"
+	}],
+	"Somaliland": [{
+		"name": "Mohamed Mooge Liiban",
+		"genres": [" World Music"],
+		"wikiLink": "en"
+	}],
+	"South Africa": [{
+			"name": "  Abdullah Ibrahim",
+			"genres": [" Jazz"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Hugo_Wolf"
+		},
+		{
+			"name": " Miriam Makeba ",
+			"genres": [" World Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Laibach"
+		},
+		{
+			"name": "Hugh Masekela  ",
+			"genres": ["Jazz"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Anton_Dermota"
+		},
+		{
+			"name": "Trevor Jones",
+			"genres": ["  Instrumental Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Jacobus_Gallus"
+		}
+	],
+	"South Korea": [{
+			"name": "Kyung-Wha Chung",
+			"genres": [" Violin Virtuoso"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Kyung_Wha_Chung"
+		},
+		{
+			"name": " Jung Hyun And The Men ",
+			"genres": [" Psychedelic Rock"],
+			"wikiLink": "https://www.last.fm/tr/music/Jung+Hyun+And+The+Men"
+		},
+		{
+			"name": " Yiruma ",
+			"genres": [" Instrumental Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Yiruma"
+		},
+		{
+			"name": " Jo Yeong-Wook",
+			"genres": ["  Instrumental Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Jo_Yeong-wook"
+		}
+	],
+	"Spain": [{
+			"name": "Francisco Tarrega",
+			"genres": ["  Classical Guitar Composer"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Francisco_T%C3%A1rrega"
+		},
+		{
+			"name": " Tomas Luis de Victoria ",
+			"genres": [" Classical Music Composer"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Tom%C3%A1s_Luis_de_Victoria"
+		},
+		{
+			"name": " Andres Segovia ",
+			"genres": ["  Virtuoso Guitarist"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Andr%C3%A9s_Segovia"
+		},
+		{
+			"name": " Joaquin Rodrigo ",
+			"genres": ["   Classical Music Composer"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Joaqu%C3%ADn_Rodrigo"
+		}
+	],
+	"Sri Lanka": [{
+			"name": "  M.I.A. ",
+			"genres": ["  Electronic Pop"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Mia"
+		},
+		{
+			"name": " Pandith Amaradeva ",
+			"genres": [" Folk Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/W._D._Amaradeva"
+		}
+	],
+	"Sudan": [{
+			"name": " Ahmed Abdul-Malik",
+			"genres": ["Jazz"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Ahmed_Abdul-Malik"
+		},
+		{
+			"name": " Mohammed Wardi",
+			"genres": [" World Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Mohammed_Wardi"
+		},
+		{
+			"name": " Abdel Gadir Salim",
+			"genres": ["World Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Abdel_Gadir_Salim"
+		}
+	],
+	"Sweden": [{
+			"name": "ABBA",
+			"genres": [" Pop Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/ABBA"
+		},
+		{
+			"name": " Opeth ",
+			"genres": [" Progressive Metal"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Opeth"
+		},
+		{
+			"name": " The Cardigans ",
+			"genres": ["  Indie Pop"],
+			"wikiLink": "https://en.wikipedia.org/wiki/The_Cardigans"
+		},
+		{
+			"name": " Jussi Björling",
+			"genres": [" Opera Singer"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Jussi_Bj%C3%B6rling"
+		}
+	],
+	"Switzerland": [{
+			"name": "Ludwig Senfl",
+			"genres": [" Classical Music Composer"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Ludwig_Senfl"
+		},
+		{
+			"name": " Arthur Honegger ",
+			"genres": ["Classical Music Composer"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Arthur_Honegger"
+		},
+		{
+			"name": " Alfred Cortot ",
+			"genres": ["  Virtuoso Pianist"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Alfred_Cortot"
+		},
+		{
+			"name": " Edwin Fischer",
+			"genres": [" Virtuoso Pianist"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Edwin_Fischer"
+		}
+	],
+	"Syria": [{
+			"name": " Sabah Fakhri ",
+			"genres": ["Traditional Arabic Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Sabah_Fakhri"
+		},
+		{
+			"name": " Farid Al Atrash ",
+			"genres": [" Traditional Arabic Music "],
+			"wikiLink": "https://en.wikipedia.org/wiki/Farid_al-Atrash"
+		},
+		{
+			"name": " Asmahan",
+			"genres": [" Traditional Arabic Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Asmahan"
+		}
+	],
+	"Tobago": [{
+			"name": "Lord Kitchener",
+			"genres": [" Calypso"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Lord_Kitchener_%28calypsonian%29"
+		},
+		{
+			"name": " Lionel Belasco ",
+			"genres": ["Calypso"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Lionel_Belasco"
+		},
+		{
+			"name": " Winifred Atwell ",
+			"genres": ["  Virtuoso Pianist", "Boogie Woogie", "Ragtime"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Winifred_Atwell"
+		},
+		{
+			"name": " Lord Beginner",
+			"genres": [" Calypso"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Lord_Beginner"
+		}
+	],
+	"Taiwan": [{
+		"name": " Pi-Hsien Chen",
+		"genres": ["  Virtuoso Pianist"],
+		"wikiLink": "https://en.wikipedia.org/wiki/Chen_Pi-hsien"
+	}],
+	"Tajikistan": [{
+		"name": " Davlatmand Kholov",
+		"genres": [" Folk"],
+		"wikiLink": "https://en.wikipedia.org/wiki/Davlatmand_Kholov"
+	}],
+	"Tanzania": [{
+			"name": "Hukwe Zawose",
+			"genres": ["  African Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Hukwe_Zawose"
+		},
+		{
+			"name": " Remmy Ongala ",
+			"genres": ["African Pop Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Remmy_Ongala"
+		},
+		{
+			"name": " Bi Kidude ",
+			"genres": [" World Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Bi_Kidude"
+		},
+		{
+			"name": " Siti binti Saad",
+			"genres": [" Traditional Arabic Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Siti_binti_Saad"
+		}
+	],
+	"Thailand": [{
+			"name": "Tool Thongjai",
+			"genres": [" Traditional Pop"],
+			"wikiLink": "https://www.last.fm/music/Tool+ThongJai?setlang=en"
+		},
+		{
+			"name": "  The Son Of P.M.",
+			"genres": ["Garage Rock"],
+			"wikiLink": "https://www.last.fm/music/The%20Son%20Of%20P.M."
+		},
+		{
+			"name": " Johnny Guitar",
+			"genres": [" Psychedelic Rock"],
+			"wikiLink": "https://www.last.fm/music/Johnny%20Guitar"
+		},
+		{
+			"name": " Suntaraporn",
+			"genres": [" Traditional Pop"],
+			"wikiLink": "https://www.last.fm/music/Suntaraporn"
+		}
+	],
+	"Tibet": [{
+			"name": " Nawang Khechog",
+			"genres": [" New Age"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Nawang_Khechog"
+		},
+		{
+			"name": " Dechen Shak-Dagsay",
+			"genres": [" World Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Dechen_Shak-Dagsay"
+		}
+	],
+	"Tunisia": [{
+			"name": "Anouar Brahem",
+			"genres": [" Oud Virtuoso", "Jazz", "World Music"],
+			"wikiLink": "https://www.last.fm/music/Tool+ThongJai?setlang=en"
+		},
+		{
+			"name": " Dhafer Youssef",
+			"genres": ["World Music", "Jazz"],
+			"wikiLink": "https://www.last.fm/music/The%20Son%20Of%20P.M."
+		},
+		{
+			"name": " Jacqueline Taieb",
+			"genres": [" Pop Music"],
+			"wikiLink": "https://www.last.fm/music/Johnny%20Guitar"
+		},
+		{
+			"name": " Cheikh El Afrit",
+			"genres": [" Folk Music"],
+			"wikiLink": "https://www.last.fm/music/Suntaraporn"
+		}
+	],
+	"Turkey": [{
+			"name": "Itri",
+			"genres": [" Turkish Classical Music Composer"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Buhurizade_Mustafa_Itri"
+		},
+		{
+			"name": " Dede Efendi",
+			"genres": ["Turkish Classical Music Composer"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Hammamizade_%C4%B0smail_Dede_Efendi"
+		},
+		{
+			"name": "Tamburi Cemil Bey",
+			"genres": [" Kemençe and Tanbur Virtuoso"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Cemil_Bey"
+		},
+		{
+			"name": " Haci Arif Bey",
+			"genres": [" Turkish Classical Music Composer"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Hac%C4%B1_Arif_Bey"
+		}
+	],
+	"Turkmenistan": [{
+		"name": " Gunesh Ensemble",
+		"genres": ["  Jazz Fusion "],
+		"wikiLink": "http://ezhevika.blogspot.com/2009/07/gunesh-ensemble-looking-at-earth-1984.html"
+	}],
+	"Tuva": [{
+		"name": "Huun-Huur-Tu ",
+		"genres": [" Folk Music"],
+		"wikiLink": "https://en.wikipedia.org/wiki/Huun-Huur-Tu"
+	}],
+	"United States of America": [{
+			"name": "Jimi Hendrix",
+			"genres": [" Guitar Virtuoso"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Jimi_Hendrix"
+		},
+		{
+			"name": " Bob Dylan",
+			"genres": ["Folk Rock"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Bob_Dylan"
+		},
+		{
+			"name": "Johnny Cash",
+			"genres": [" Country Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Johnny_Cash"
+		},
+		{
+			"name": " Frank Sinatra",
+			"genres": [" Traditional Pop"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Frank_Sinatra"
+		}
+	],
+	"Uganda": [{
+			"name": " Geoffrey Oryema",
+			"genres": ["World Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Geoffrey_Oryema"
+		},
+		{
+			"name": "Samite",
+			"genres": ["  World Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Samite"
+		},
+		{
+			"name": " Birigwa",
+			"genres": [" World Music"],
+			"wikiLink": "https://www.last.fm/tr/music/Birigwa"
+		}
+	],
+	"Ukraine": [{
+			"name": "Stan Getz",
+			"genres": [" Jazz"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Stan_Getz"
+		},
+		{
+			"name": " Sviatoslav Richter ",
+			"genres": ["Virtuoso Pianist"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Sviatoslav_Richter"
+		},
+		{
+			"name": "Vladimir Horowitz",
+			"genres": ["  Virtuoso Pianist"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Vladimir_Horowitz"
+		},
+		{
+			"name": " David Oistrakh",
+			"genres": [" Violin Virtuoso"],
+			"wikiLink": "https://en.wikipedia.org/wiki/David_Oistrakh"
+		}
+	],
+	"Uruguay": [{
+			"name": "Francisco Canaro",
+			"genres": ["Tango"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Francisco_Canaro"
+		},
+		{
+			"name": " Alfredo Zitarrosa ",
+			"genres": ["Folk Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Alfredo_Zitarrosa"
+		},
+		{
+			"name": "Julio Sosa ",
+			"genres": [" Tango"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Julio_Sosa"
+		},
+		{
+			"name": " El Cuarteto de Nos",
+			"genres": [" Pop/Rock"],
+			"wikiLink": "https://en.wikipedia.org/wiki/El_Cuarteto_de_Nos"
+		}
+	],
+	"US Virgin Islands": [{
+		"name": " Midnite",
+		"genres": [" Reggae"],
+		"wikiLink": "https://en.wikipedia.org/wiki/Midnight"
+	}],
+	"Uzbekistan": [{
+			"name": "Turgun Alimatov",
+			"genres": ["Folk Musician"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Turgun_Alimatov"
+		},
+		{
+			"name": " Alexei Sultanov ",
+			"genres": ["Virtuoso Pianist"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Alexei_Sultanov"
+		},
+		{
+			"name": "Sevara Nazarkhan  ",
+			"genres": [" World Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Sevara_Nazarkhan"
+		},
+		{
+			"name": "  Munadjat Yulchieva ",
+			"genres": ["Folk Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Munojot_Yo%CA%BBlchiyeva"
+		}
+	],
+	"Venezuela": [{
+			"name": "Oscar D'Leon ",
+			"genres": [" Salsa"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Oscar_D%27Le%C3%B3n"
+		},
+		{
+			"name": "  Antonio Lauro ",
+			"genres": ["Classical Guitar Composer"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Antonio_Lauro"
+		},
+		{
+			"name": " Alirio Diaz",
+			"genres": ["  Virtuoso Guitarist"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Alirio_D%C3%ADaz"
+		},
+		{
+			"name": "   Soledad Bravo ",
+			"genres": ["Folk Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Soledad_Bravo"
+		}
+	],
+	"Vietnam": [{
+			"name": "Cuong Vu ",
+			"genres": ["  Trumpet Player"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Cuong_Vu"
+		},
+		{
+			"name": "  Tai Phong ",
+			"genres": ["Progressive Rock"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Ta%C3%AF_Phong"
+		},
+		{
+			"name": " Khanh Ly",
+			"genres": [" Pop Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Kh%C3%A1nh_Ly"
+		},
+		{
+			"name": "  Phong Nguyen ",
+			"genres": [" World Music"],
+			"wikiLink": "http://www.phong-nguyen.com/"
+		}
+	],
+	"Wales": [{
+			"name": "Aphex Twin ",
+			"genres": [" Idm"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Aphex_Twin"
+		},
+		{
+			"name": "  John Cale ",
+			"genres": ["Art Rock"],
+			"wikiLink": "https://en.wikipedia.org/wiki/John_Cale"
+		},
+		{
+			"name": " Tom Jones",
+			"genres": [" Pop Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Tom_Jones_%28singer%29"
+		},
+		{
+			"name": "  Manic Street Preachers ",
+			"genres": ["  Alternative Rock"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Manic_Street_Preachers"
+		}
+	],
+	"Zambia": [{
+			"name": " Amanaz",
+			"genres": [" Psychedelic Rock"],
+			"wikiLink": "https://www.last.fm/music/Amanaz"
+		},
+		{
+			"name": "  The Witch ",
+			"genres": ["  Psychedelic Rock"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Witch_(Zamrock_band)"
+		}
+	],
+	"Zimbabwe": [{
+			"name": " Oliver Mtukudzi ",
+			"genres": ["African Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Oliver_Mtukudzi"
+		},
+		{
+			"name": "  Thomas Mapfumo ",
+			"genres": [" African Pop Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Thomas_Mapfumo"
+		},
+		{
+			"name": "Dorothy Masuka ",
+			"genres": [" World Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Dorothy_Masuka"
+		},
+		{
+			"name": "Bhundu Boys",
+			"genres": ["African Pop Music"],
+			"wikiLink": "https://en.wikipedia.org/wiki/Bhundu_Boys"
+		}
+	]
+}
