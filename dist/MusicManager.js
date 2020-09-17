@@ -141,6 +141,19 @@ class MusicManager {
 		}
 
 	}
+	prevSong() {
+		for (let song of this.songs) {
+			if (song.isNowPlaying) {
+				song.isNowPlaying = false
+				const songIndex = this.songs.indexOf(song)
+				const prevSongIndex = songIndex - 1
+				const prevSong = this.songs[prevSongIndex]
+				prevSong.isNowPlaying = true
+				break
+			}
+		}
+
+	}
 	getCountries = async function () {
 		const countriesData = await $.get('/countries')
 		this.countries = countriesData
