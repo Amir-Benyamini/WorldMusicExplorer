@@ -1,21 +1,213 @@
-body{
+* {
+  color: rgb(32, 21, 9);
+  font-family: "Ubuntu", sans-serif;
+  font-size: medium;
+  box-sizing: border-box;
+}
+
+@media (width: 500px) {
+  button {
+    height: 50px;
+    width: 50px;
+  }
+  .songs {
+    font-size: smaller;
+  }
+}
+
+.hidden{
+  display: none !important;
+}
+
+video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+#container {
+  width: 100vw;
+  height: 100vh;
   display: grid;
-  grid-template-rows: 1fr 10fr 1fr;
+  grid-template-rows: 1fr 8fr 1fr;
   grid-template-columns: 1fr 2fr;
-  grid-template-areas: 
-  "search-bar search-bar"
-  "list now-playing"
-  "control-bar control-bar";
+  grid-template-areas:
+    "search-bar search-bar"
+    "list now-playing"
+    "control-bar control-bar";
+
+  grid-gap: 5%;
+  padding: 10px;
+  position: relative;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
-#search{
-    grid-area: search-bar;
+@keyframes slide-right {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 1280px 0;
+  }
 }
 
-.now-playing-container{
-    grid-area: now-playing;
+button,
+input,
+select {
+  outline: none;
+  box-shadow: 1px 1px 5px rgb(32, 21, 9);
+  background-color: rgb(158, 126, 88);
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
 }
 
-.songs{
-    grid-area: list;
+button:hover,
+input:hover {
+  cursor: pointer;
+  background-color: rgba(173, 152, 127, 0.514);
+}
+
+
+#search {
+  grid-area: search-bar;
+  height: fit-content;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+    "select select search"
+    "chill party popular";
+  align-items: center;
+}
+
+#countryInp {
+  grid-area: select;
+  background-color: rgba(245, 236, 227, 0.89);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#countryInpBtn {
+  grid-area: search;
+}
+
+#bpmSlow {
+  grid-area: chill;
+  font-size: larger;
+  font-weight: bold;
+}
+
+#bpmFast {
+  grid-area: party;
+  font-size: larger;
+  font-weight: bold;
+}
+
+#popularInp {
+  grid-area: popular;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.layout {
+  background-color: rgba(255, 226, 193, 0.712);
+  box-shadow: 1px 1px 5px rgb(32, 21, 9);
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+  color: rgb(214, 220, 226);
+  overflow: scroll;
+}
+
+.now-playing-container {
+  grid-area: now-playing;
+  padding: 0;
+  width: auto;
+  height: auto;
+}
+
+.songs {
+  grid-area: list;
+  display: grid;
+  grid-auto-rows: minmax(fit-content,120px);
+  grid-gap: 5px;
+  overflow: scroll;
+  height: 100%;
+  width: auto;
+}
+
+.song {
+  width: 100%;
+  height: fit-content;
+  border: 1px solid rgb(158, 126, 88);
+  padding: 10px;
+}
+
+.now-playing {
+  background-color: rgb(158, 126, 88);
+  color: white;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.album {
+  font-weight: small;
+  color: rgba(49, 31, 20, 0.904);
+}
+
+.artist {
+  font-size: smaller;
+  color: rgba(49, 31, 20, 0.904);
+  font-weight: bold;
+}
+
+#control-bar {
+  grid-area: control-bar;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  min-height: 100px;
+  align-items: center;
+}
+
+#previous {
+  grid-column: 1;
+}
+
+#next {
+  grid-column: 3;
+  align-self: center;
+}
+
+#playlist {
+  grid-column: 2;
+}
+
+#youtubeBtn {
+  grid-column: 5;
+  padding: 5%;
+}
+
+#wikiBtn {
+  grid-column: 4;
+  grid-row: 1;
+  padding: 5%;
+}
+
+#wikiBtn > img,
+#youtubeBtn > img {
+  width: 100%;
+  height: 100%;
 }

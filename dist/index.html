@@ -1,60 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="materialize-css/dist/css/materialize.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
 
-<head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<link rel="stylesheet" href="style.css" />
-	<link rel="stylesheet" href="materialize-css/dist/css/materialize.css" />
-	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
-	<title>World Music Explorer</title>
-</head>
+    <title>World Music Explorer</title>
+  </head>
+  <body>
+    <video playsinline autoplay muted loop poster="" id="bgvid">
+      <source
+        src="/assets/coverr-moving-shot-of-a-map-of-the-netherlands-1583225541850.webm"
+        type="video/webm"
+      />
+    </video>
+    <div id="container">
+      <div id="search" class="layout">
+        <select name="countries" id="countryInp"></select>
+        <button id="countryInpBtn" class="">
+          <i class="material-icons">search</i>
+        </button>
+        <label>
+          <input
+            class="with-gap"
+            name="bpm"
+            type="radio"
+            id="bpmSlow"
+            value="slow"
+          />
+          <span>Chill</span>
+        </label>
+        <label>
+          <input
+            class="with-gap"
+            name="bpm"
+            type="radio"
+            id="bpmFast"
+            value="fast"
+          />
+          <span>Party</span>
+        </label>
+        <label>
+          <input type="checkbox" class="filled-in" id="popularInp" />
+          <span>Popular</span>
+        </label>
+      </div>
+      <div class="now-playing-container layout hidden"></div>
+      <div class="songs layout hidden"></div>
+      <div id="control-bar" class="layout hidden">
+        <button id="previous">
+          <i class="material-icons">skip_previous</i>
+        </button>
+        <button id="playlist" class="">
+          <i class="material-icons">play_arrow</i>
+        </button>
+        <button id="next"><i class="material-icons">skip_next</i></button>
+        <button id="youtubeBtn">
+          <img src="/assets/youtube_logo.png" alt="YouTube" />
+        </button>
+        <button id="wikiBtn">
+          <img src="/assets/wikipedia_logo.png" alt="Wiki" />
+        </button>
+      </div>
+    </div>
 
-<body>
-	<div id="search">
-		<div class="row">
-			<select name="countries" id="countryInp" class="browser-default col s9"></select>
-
-			<button id="countryInpBtn" class="col s3 waves-effect waves-light btn">
-				<i class="material-icons">search</i>
-			</button>
-		</div>
-
-		<div class="row">
-			<div class="col l1 offset-l8">
-				<label>
-					<input class="with-gap" name="bpm" type="radio" id="bpmSlow" value="slow" />
-					<span>Chill</span>
-				</label>
-			</div>
-
-			<div class="col l1">
-				<label>
-					<input class="with-gap" name="bpm" type="radio" id="bpmFast" value="fast" />
-					<span>Party</span>
-				</label>
-			</div>
-
-			<div class="col l1">
-				<label>
-					<input type="checkbox" class="filled-in" id="popularInp" />
-					<span>Popular</span>
-				</label>
-			</div>
-
-			<div>
-				<button id="playlist" class="col l1 #B0BEC5 blue-grey lighten-3">
-					<i class="material-icons">playlist_play</i>
-				</button>
-			</div>
-		</div>
-	</div>
-	<button id="previous">previous!</button>
-	<button id="next">next!</button>
-	<div class="now-playing-container"></div>
-	<div class="songs"></div>
-
-	<script id="countries-template" type="text/x-handlebars-template">
+    <script id="countries-template" type="text/x-handlebars-template">
       {{#each countries}}
         <option value="{{this}}">
           {{this}}
@@ -62,7 +81,7 @@
       {{/each}}
     </script>
 
-	<script id="songs-template" type="text/x-handlebars-template">
+    <script id="songs-template" type="text/x-handlebars-template">
       {{#each songs}}
       <div data-id="{{_id}}" class="song {{#if isNowPlaying}} now-playing{{/if}}">
           <div class="title">{{name}}</div>
@@ -72,19 +91,34 @@
       {{/each}}
     </script>
 
-	<script id="now-playing-template" type="text/x-handlebars-template">
+    <script id="now-playing-template" type="text/x-handlebars-template">
       <div data-id="{{_id}}" class="isNowPlaying song">
-      <iframe src="https://open.spotify.com/embed/track/{{spotifyId}}" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-      	<div class="title">{{name}}</div>
-      	<div class="artist">{{album.artist.name}}</div>
-      	<div class="album">{{album.name}}</div>
-      	<button id="like" class="#EF9A9A red lighten-3">
-      		<i class="material-icons">favorite</i>
-      		</button>
+        <iframe
+        src="{{#if spotifyId}}https://open.spotify.com/embed/track/{{spotifyId}}{{else}}https://www.youtube.com/embed/{{youtubeId}}{{/if}}"
+          width="200"
+          height="300"
+          frameborder="0"
+          allowtransparency="true"
+          allow="encrypted-media"
+        ></iframe>
+        <div class="title">
+          {{name}}
         </div>
+        <div class="artist">
+          {{album.artist.name}}
+        </div>
+        <div class="album">
+          {{album.name}}
+        </div>
+        <button id="dislike" class="#EF9A9A red lighten-3">
+          <i class="material-icons">
+            favorite
+          </i>
+        </button>
+      </div>
     </script>
 
-	<script id="my-playlist-template" type="text/x-handlebars-template">
+    <script id="my-playlist-template" type="text/x-handlebars-template">
       		{{#each myPlaylist}}
       		<div data-id="{{_id}}" class="song {{#if isNowPlaying}} now-playing{{/if}}">
       {{#if isNowPlaying}}
@@ -100,12 +134,11 @@
       		{{/each}}
     </script>
 
-	<script src="materialize-css/dist/js/materialize.js"></script>
-	<script src="handlebars/dist/handlebars.js"></script>
-	<script src="jquery/dist/jquery.js"></script>
-	<script src="Renderer.js"></script>
-	<script src="MusicManager.js"></script>
-	<script src="main.js"></script>
-</body>
-
+    <script src="materialize-css/dist/js/materialize.js"></script>
+    <script src="handlebars/dist/handlebars.js"></script>
+    <script src="jquery/dist/jquery.js"></script>
+    <script src="Renderer.js"></script>
+    <script src="MusicManager.js"></script>
+    <script src="main.js"></script>
+  </body>
 </html>
