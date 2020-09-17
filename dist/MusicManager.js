@@ -109,99 +109,109 @@
 // 	]
 // }
 
-
 class MusicManager {
-	constructor() {
-		this.songs = []
-		this.countries = []
-	}
+  constructor() {
+    this.songs = []
+    this.countries = []
+  }
 
-	playSongs(songsList) {
-		const firstSong = songsList.splice(0, 1)
-		const restOfList = songsList.splice(0, songsList.length)
+  playSongs(songsList) {
+    const firstSong = songsList.splice(0, 1)
+    const restOfList = songsList.splice(0, songsList.length)
 
-		firstSong[0].isNowPlaying = true
-		restOfList.forEach(song => {
-			song.isNowPlaying = false
-		})
+    firstSong[0].isNowPlaying = true
+    restOfList.forEach((song) => {
+      song.isNowPlaying = false
+    })
 
-		this.songs.push(firstSong[0])
-		restOfList.forEach(song => this.songs.push(song))
-	}
-	nextSong() {
-		for (let song of this.songs) {
-			if (song.isNowPlaying) {
-				song.isNowPlaying = false
-				const songIndex = this.songs.indexOf(song)
-				const nextSongIndex = songIndex + 1
-				const nextSong = this.songs[nextSongIndex]
-				nextSong.isNowPlaying = true
-				break
-			}
-		}
+    this.songs.push(firstSong[0])
+    restOfList.forEach((song) => this.songs.push(song))
+  }
+  nextSong() {
+    for (let song of this.songs) {
+      if (song.isNowPlaying) {
+        song.isNowPlaying = false
+        const songIndex = this.songs.indexOf(song)
+        const nextSongIndex = songIndex + 1
+        const nextSong = this.songs[nextSongIndex]
+        nextSong.isNowPlaying = true
+        break
+      }
+    }
+  }
+  prevSong() {
+    for (let song of this.songs) {
+      if (song.isNowPlaying) {
+        song.isNowPlaying = false
+        const songIndex = this.songs.indexOf(song)
+        const prevSongIndex = songIndex - 1
+        const prevSong = this.songs[prevSongIndex]
+        prevSong.isNowPlaying = true
+        break
+      }
+    }
+  }
+  getCountries = async function () {
+    const countriesData = await $.get("/countries")
+    this.countries = countriesData
+    return countriesData
+  }
+  getSongByFilters = async function (country, bpm) {
+    // let songsList = await $.get(`/songs/${country}/?popular=${popular}`)
 
-	}
-	prevSong() {
-		for (let song of this.songs) {
-			if (song.isNowPlaying) {
-				song.isNowPlaying = false
-				const songIndex = this.songs.indexOf(song)
-				const prevSongIndex = songIndex - 1
-				const prevSong = this.songs[prevSongIndex]
-				prevSong.isNowPlaying = true
-				break
-			}
-		}
+    /* ===**********
+     * show loader before request starts===
+     * Then hide it again when the data is received
+     *==============*/
+    const $loader = $("#loader-container")
+    $loader.hasClass("hidden") ? $loader.removeClass("hidden") : null
+    let songsList = await $.get(`/songs/${country}`)
+    $loader.addClass("hidden")
 
-	}
-	getCountries = async function () {
-		const countriesData = await $.get('/countries')
-		this.countries = countriesData
-		return countriesData
-	}
-	getSongByFilters = async function (country, bpm) {
-		// let songsList = await $.get(`/songs/${country}/?popular=${popular}`)
-		let songsList = await $.get(`/songs/${country}`)
+    if (bpm === "fast") {
+      this.songs = []
+      const fastSongs = songsList.filter((song) => song.bpm >= 100)
+      this.playSongs(fastSongs)
+    } else if (bpm === "slow") {
+      this.songs = []
+      const slowSongs = songsList.filter((song) => song.bpm <= 100)
+      this.playSongs(slowSongs)
+    } else {
+      this.songs = []
+      this.playSongs(songsList)
+    }
 
-		if (bpm === "fast") {
-			this.songs = []
-			const fastSongs = songsList.filter(song => song.bpm >= 100)
-			this.playSongs(fastSongs)
-		} else if (bpm === "slow") {
-			this.songs = []
-			const slowSongs = songsList.filter(song => song.bpm <= 100)
-			this.playSongs(slowSongs)
-		} else {
-			this.songs = []
-			this.playSongs(songsList)
-		}
+    return this.songs
+  }
 
-		return this.songs
+  getSongsFromDB = async function () {
+	  /* ===**********
+     * show loader before request starts===
+     * Then hide it again when the data is received
+     *==============*/
+	const $loader = $("#loader-container")
+	$loader.hasClass("hidden") ? $loader.removeClass("hidden") : null
+	let myPlaylist = await $.get(`/songs/myPlaylist`)
+	$loader.addClass("hidden")
+    this.songs = []
+    this.playSongs(myPlaylist)
+    return this.songs
+  }
 
-	}
+  saveSongToDB(songObj) {
+    $.ajax({
+      type: "POST",
+      url: "/song",
+      data: songObj,
+      success: () => alert(`The song ${songObj.name} is now saved!`),
+    })
+  }
 
-	getSongsFromDB = async function () {
-		let myPlaylist = await $.get(`/songs/myPlaylist`)
-		this.songs = []
-		this.playSongs(myPlaylist)
-		return this.songs
-	}
-
-	saveSongToDB(songObj) {
-		$.ajax({
-			type: 'POST',
-			url: '/song',
-			data: songObj,
-			success: () => alert(`The song ${songObj.name} is now saved!`),
-		})
-	}
-
-	deleteSongToDB(songName) {
-		$.ajax({
-			type: 'DELETE',
-			url: `/song/${songName}`,
-			success: () => alert(`The song ${songName} is now removed!`),
-		})
-	}
+  deleteSongToDB(songName) {
+    $.ajax({
+      type: "DELETE",
+      url: `/song/${songName}`,
+      success: () => alert(`The song ${songName} is now removed!`),
+    })
+  }
 }
-

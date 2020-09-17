@@ -49,7 +49,6 @@ class Renderer {
 
     const $controlBar = $("#control-bar")
     $controlBar.hasClass("hidden") ? $controlBar.removeClass("hidden") : null
-    console.log(song)
     $("#wikiBtn").attr("onclick", `window.open('${song.album.artist.wikipediaSummary}')`)
     if (song.youtubeId) {
       $("#youtubeBtn").attr(
