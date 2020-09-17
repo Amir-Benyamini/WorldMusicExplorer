@@ -31,8 +31,8 @@ router.post("/song", async function (req, res) {
 
 router.delete("/song/:songId", async function (req, res) {
   const { songId } = req.params
-  apiManager.deleteSongFromDB(songId)
-  res.send("")
+  const data = await apiManager.deleteSongFromDB(songId)
+  res.send(data)
 })
 
 module.exports = router

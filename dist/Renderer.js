@@ -23,12 +23,14 @@ class Renderer {
       ? $songsContainer.removeClass("hidden")
       : null
 
-    const nowPlayingSong = songs.filter((song) => song.isNowPlaying)[0]
+    console.log(songs)
+    const nowPlayingSong = songs.find((song) => song.isNowPlaying)
     this.renderNowPlaying(nowPlayingSong)
   }
 
   renderMyPlaylist(myPlaylist) {
     $(".songs").empty()
+    $(".now-playing-container").empty()
     const source = $("#my-playlist-template").html()
     const template = Handlebars.compile(source)
     const newHTML = template({ myPlaylist })
@@ -48,8 +50,17 @@ class Renderer {
       : null
 
     const $controlBar = $("#control-bar")
+    const $likeDislikeBtn = $controlBar.find("#like-dislike")
+    $likeDislikeBtn.attr("data-isSaved", song.isSaved)
+    song.isSaved
+      ? $likeDislikeBtn.find("i").text("thumb_down")
+      : $likeDislikeBtn.find("i").text("thumb_up")
+
     $controlBar.hasClass("hidden") ? $controlBar.removeClass("hidden") : null
-    $("#wikiBtn").attr("onclick", `window.open('${song.album.artist.wikipediaSummary}')`)
+    $("#wikiBtn").attr(
+      "onclick",
+      `window.open('${song.album.artist.wikipediaSummary}')`
+    )
     if (song.youtubeId) {
       $("#youtubeBtn").attr(
         "onclick",

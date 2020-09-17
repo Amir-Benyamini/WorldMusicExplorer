@@ -178,6 +178,7 @@ class MusicManager {
     $loader.hasClass("hidden") ? $loader.removeClass("hidden") : null
     let songsList = await $.get(`/songs/${country}`)
     $loader.addClass("hidden")
+    songsList.forEach((song) => (song["isSaved"] = false))
 
     if (bpm === "fast") {
       this.songs = []
@@ -196,33 +197,43 @@ class MusicManager {
   }
 
   getSongsFromDB = async function () {
-	  /* ===**********
+    /* ===**********
      * show loader before request starts===
      * Then hide it again when the data is received
      *==============*/
-	const $loader = $("#loader-container")
-	$loader.hasClass("hidden") ? $loader.removeClass("hidden") : null
-	let myPlaylist = await $.get(`/songs/myPlaylist`)
-	$loader.addClass("hidden")
+    const $loader = $("#loader-container")
+    $loader.hasClass("hidden") ? $loader.removeClass("hidden") : null
+    let myPlaylist = await $.get(`/myPlaylist`)
+    $loader.addClass("hidden")
     this.songs = []
+    myPlaylist.forEach((song) => (song["isSaved"] = true))
     this.playSongs(myPlaylist)
     return this.songs
   }
 
-  saveSongToDB(songObj) {
+  saveSongToDB(songId) {
+    const index = this.songs.findIndex((s) => s._id === songId)
+    const songObj = this.songs[index]
     $.ajax({
       type: "POST",
       url: "/song",
       data: songObj,
-      success: () => alert(`The song ${songObj.name} is now saved!`),
+      success: () => {
+        this.songs[index]["isSaved"] = true
+        alert(`The song ${songObj.name} is now saved!`)
+      },
     })
   }
 
-  deleteSongToDB(songName) {
+  deleteSongToDB(songId) {
+    const index = this.songs.findIndex((s) => s._id === songId)
     $.ajax({
       type: "DELETE",
-      url: `/song/${songName}`,
-      success: () => alert(`The song ${songName} is now removed!`),
+      url: `/song/${songId}`,
+      success: () => {
+        this.songs[index]["isSaved"] = false
+        alert(`The song ${songId} is now removed!`)
+      },
     })
   }
 }

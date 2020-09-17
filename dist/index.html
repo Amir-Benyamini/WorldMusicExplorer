@@ -57,7 +57,7 @@
           />
           <span>Party</span>
         </label>
-        <label>
+        <label class="hidden">
           <input type="checkbox" class="filled-in" id="popularInp" />
           <span>Popular</span>
         </label>
@@ -72,6 +72,10 @@
             <i class="material-icons">skip_previous</i>
           </button>
           <button id="next"><i class="material-icons">skip_next</i></button>
+          <button id="like-dislike" class="#EF9A9A red lighten-3">
+            <i class="material-icons">
+            </i>
+          </button>
           <button id="youtubeBtn">
             <img src="/assets/youtube_logo.png" alt="YouTube" />
           </button>
@@ -119,11 +123,6 @@
         <div class="album">
           {{album.name}}
         </div>
-        <button id="dislike" class="#EF9A9A red lighten-3">
-          <i class="material-icons">
-            favorite
-          </i>
-        </button>
       </div>
     </script>
 
