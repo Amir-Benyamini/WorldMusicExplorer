@@ -1,6 +1,6 @@
 const dbManager = require("./resources/dbManager")
 const lastFm = require("./resources/lastFm")
-const { maxSongsPerResponse, bufferSongsLimit } = require("../../config")
+const { maxSongsPerResponse } = require("../../config")
 
 class ApiManager {
   constructor() {
@@ -17,14 +17,12 @@ class ApiManager {
 
     /*==========
      * If there are more artists than MAX songs, use only x artists
-     * (equals to max, with additional buffer for invalid songs dropping on later stages)
+     * (equals to max)
      * and allow only 1 song for each
-     * all variables are deifned in the .env
+     * max is deifned in the .env
      * =========*/
     if (songsLimit < 1) {
-      artists.length < maxSongsPerResponse + bufferSongsLimit
-        ? null
-        : artists.splice(maxSongsPerResponse + bufferSongsLimit)
+      artists.splice(maxSongsPerResponse)
       songsLimit = 1
     }
 
