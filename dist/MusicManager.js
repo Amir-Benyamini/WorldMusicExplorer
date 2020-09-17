@@ -129,18 +129,19 @@ class MusicManager {
 		restOfList.forEach(song => this.songs.push(song))
 	}
 	nextSong() {
-		this.songs.forEach(song => {
-			if(song.isNowPlaying){
+		for (let song of this.songs) {
+			if (song.isNowPlaying) {
 				song.isNowPlaying = false
-				const songIndex =this.songs.indexOf(song)
-				const nextSongIndex = songIndex +1
+				const songIndex = this.songs.indexOf(song)
+				const nextSongIndex = songIndex + 1
 				const nextSong = this.songs[nextSongIndex]
 				nextSong.isNowPlaying = true
+				break
 			}
-		})
+		}
 
 	}
-	getCountries = async function(){
+	getCountries = async function () {
 		const countriesData = await $.get('/countries')
 		this.countries = countriesData
 		return countriesData
