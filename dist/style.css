@@ -1,26 +1,47 @@
 * {
-  color: white;
+  color: rgb(32, 21, 9);
+  font-family: "Ubuntu", sans-serif;
+  font-size: medium;
+  box-sizing: border-box;
 }
 
-body {
+@media (width: 500px) {
+  button {
+    height: 50px;
+    width: 50px;
+  }
+  .songs {
+    font-size: smaller;
+  }
+}
+
+video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+#container {
   width: 100vw;
   height: 100vh;
   display: grid;
-  grid-template-rows: 1fr 10fr 1fr;
+  grid-template-rows: 1fr 8fr 1fr;
   grid-template-columns: 1fr 2fr;
   grid-template-areas:
     "search-bar search-bar"
     "list now-playing"
     "control-bar control-bar";
 
-  grid-gap: 10px;
+  grid-gap: 5%;
   padding: 10px;
-  animation: slide-right 200s linear infinite;
-  background-image: url("/assets/music_notes.png");
-  background-repeat: repeat-x;
-  background-position: 0 0;
-  background-color: rgb(34, 52, 61);
-  background-size: cover;
+  position: relative;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
 @keyframes slide-right {
@@ -32,63 +53,153 @@ body {
   }
 }
 
-button,input{
-outline: none;
-box-shadow: 1px 1px 5px black;
-background-color: rgb(54, 79, 83);
-border-radius: 50%;
-width: 50px;
-height: 50px;
+button,
+input,
+select {
+  outline: none;
+  box-shadow: 1px 1px 5px rgb(32, 21, 9);
+  background-color: rgb(158, 126, 88);
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
 }
 
-button:hover,input:hover{
-    cursor: pointer;
-}
-
-#countryInp{
-    width: 100%;
-    height: 50px;
+button:hover,
+input:hover {
+  cursor: pointer;
 }
 
 #search {
   grid-area: search-bar;
   display: grid;
+  grid-gap: 20px;
   grid-template-rows: 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas:
-  "select select search"
-  "chill party popular";
+    "select select search"
+    "chill party popular";
+  align-items: center;
 }
 
-s#countryInp{
-    grid-area: select;
+#countryInp {
+  grid-area: select;
+  background-color: rgba(255, 226, 193, 0.89);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-#countryInpBtn{
-    grid-area: search;
+#countryInpBtn {
+  grid-area: search;
 }
 
-#bpmSlow{
-    grid-area: chill;
+#bpmSlow {
+  grid-area: chill;
+  font-size: larger;
+  font-weight: bold;
 }
 
-#bpmFast{
-    grid-area: party;
+#bpmFast {
+  grid-area: party;
+  font-size: larger;
+  font-weight: bold;
 }
 
-#popularInp{
-    grid-area: popular;
+#popularInp {
+  grid-area: popular;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.layout {
+  background-color: rgba(255, 226, 193, 0.89);
+  box-shadow: 1px 1px 5px rgb(32, 21, 9);
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+  color: rgb(214, 220, 226);
+  overflow: scroll;
 }
 
 .now-playing-container {
   grid-area: now-playing;
+  padding: 0;
+  width: auto;
+  height: auto;
 }
 
 .songs {
   grid-area: list;
-  background-color: rgb(73, 80, 82);
-  border-radius: 10px;
-  padding: 10px;
-  overflow: scroll;
   display: grid;
+  grid-auto-rows: 100px;
+  grid-gap: 5px;
+  overflow: scroll;
+  height: auto;
+  width: auto;
+}
+
+.song {
+  width: 100%;
+  height: 100%;
+}
+
+.now-playing {
+  background-color: rgb(158, 126, 88);
+  color: white;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.album {
+  font-weight: small;
+  color: rgba(49, 31, 20, 0.904);
+}
+
+.artist {
+  font-size: smaller;
+  color: rgba(49, 31, 20, 0.904);
+  font-weight: bold;
+}
+
+#control-bar {
+  grid-area: control-bar;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  min-height: 100px;
+  align-items: center;
+}
+
+#previous {
+  grid-column: 1;
+}
+
+#next {
+  grid-column: 3;
+  align-self: center;
+}
+
+#playlist {
+  grid-column: 2;
+}
+
+#youtubeBtn {
+  grid-column: 5;
+  padding: 5%;
+}
+
+#wikiBtn {
+  grid-column: 4;
+  grid-row: 1;
+  padding: 5%;
+}
+
+#wikiBtn > img,
+#youtubeBtn > img {
+  width: 100%;
+  height: 100%;
 }

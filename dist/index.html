@@ -9,62 +9,67 @@
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+
+
     <title>World Music Explorer</title>
   </head>
-
   <body>
-    <div id="search">
-      <div class="row"><select name="countries"
-          id="countryInp"
-        ></select>
+    <video playsinline autoplay muted loop poster="" id="bgvid">
+      <source
+        src="/assets/coverr-moving-shot-of-a-map-of-the-netherlands-1583225541850.webm"
+        type="video/webm"
+      />
+    </video>
+    <div id="container">
+      <div id="search">
+        <select name="countries" id="countryInp"></select>
         <button id="countryInpBtn" class="">
           <i class="material-icons">search</i>
         </button>
+        <label>
+          <input
+            class="with-gap"
+            name="bpm"
+            type="radio"
+            id="bpmSlow"
+            value="slow"
+          />
+          <span>Chill</span>
+        </label>
+        <label>
+          <input
+            class="with-gap"
+            name="bpm"
+            type="radio"
+            id="bpmFast"
+            value="fast"
+          />
+          <span>Party</span>
+        </label>
+        <label>
+          <input type="checkbox" class="filled-in" id="popularInp" />
+          <span>Popular</span>
+        </label>
       </div>
-
-      <div class="row">
-          <label>
-            <input
-              class="with-gap"
-              name="bpm"
-              type="radio"
-              id="bpmSlow"
-              value="slow"
-            />
-            <span>Chill</span>
-          </label>
-        </div>
-
-        <div class="col l1">
-          <label>
-            <input
-              class="with-gap"
-              name="bpm"
-              type="radio"
-              id="bpmFast"
-              value="fast"
-            />
-            <span>Party</span>
-          </label>
-        </div>
-
-        <div class="col l1">
-          <label>
-            <input type="checkbox" class="filled-in" id="popularInp" />
-            <span>Popular</span>
-          </label>
-        </div>
-
-        <div>
-          <button id="playlist" class="">
-            <i class="material-icons">play_arrow</i>
-          </button>
-        </div>
+      <div class="now-playing-container layout"></div>
+      <div class="songs layout"></div>
+      <div id="control-bar" class="layout">
+        <button id="previous">
+          <i class="material-icons">skip_previous</i>
+        </button>
+        <button id="playlist" class="">
+          <i class="material-icons">play_arrow</i>
+        </button>
+        <button id="next"><i class="material-icons">skip_next</i></button>
+        <button id="youtubeBtn">
+          <img src="/assets/youtube_logo.png" alt="YouTube" />
+        </button>
+        <button id="wikiBtn">
+          <img src="/assets/wikipedia_logo.png" alt="Wiki" />
+        </button>
       </div>
     </div>
-    <button id="next"><i class="material-icons">skip_next</i></button>
-    <div class="now-playing-container"></div>
-    <div class="songs"></div>
 
     <script id="countries-template" type="text/x-handlebars-template">
       {{#each countries}}
@@ -86,14 +91,29 @@
 
     <script id="now-playing-template" type="text/x-handlebars-template">
       <div data-id="{{_id}}" class="isNowPlaying song">
-      <iframe src="https://open.spotify.com/embed/track/{{spotifyId}}" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-      	<div class="title">{{name}}</div>
-      	<div class="artist">{{album.artist.name}}</div>
-      	<div class="album">{{album.name}}</div>
-      	<button id="dislike" class="#EF9A9A red lighten-3">
-      		<i class="material-icons">favorite</i>
-      		</button>
+        <iframe
+          src="https://open.spotify.com/embed/track/{{spotifyId}}"
+          width="200"
+          height="300"
+          frameborder="0"
+          allowtransparency="true"
+          allow="encrypted-media"
+        ></iframe>
+        <div class="title">
+          {{name}}
         </div>
+        <div class="artist">
+          {{album.artist.name}}
+        </div>
+        <div class="album">
+          {{album.name}}
+        </div>
+        <button id="dislike" class="#EF9A9A red lighten-3">
+          <i class="material-icons">
+            favorite
+          </i>
+        </button>
+      </div>
     </script>
 
     <script id="my-playlist-template" type="text/x-handlebars-template">
