@@ -15,6 +15,10 @@
   }
 }
 
+.hidden{
+  display: none !important;
+}
+
 video {
   object-fit: cover;
   width: 100vw;
@@ -71,6 +75,7 @@ input:hover {
 
 #search {
   grid-area: search-bar;
+  height: fit-content;
   display: grid;
   grid-gap: 20px;
   grid-template-rows: 1fr 1fr;
@@ -83,7 +88,7 @@ input:hover {
 
 #countryInp {
   grid-area: select;
-  background-color: rgba(255, 226, 193, 0.89);
+  background-color: rgba(245, 236, 227, 0.89);
   width: 100%;
   height: 100%;
   display: flex;
@@ -114,12 +119,11 @@ input:hover {
 }
 
 .layout {
-  background-color: rgba(255, 226, 193, 0.89);
+  background-color: rgba(255, 226, 193, 0.712);
   box-shadow: 1px 1px 5px rgb(32, 21, 9);
   text-align: center;
   padding: 10px;
   width: 100%;
-  height: 100%;
   color: rgb(214, 220, 226);
   overflow: scroll;
 }
