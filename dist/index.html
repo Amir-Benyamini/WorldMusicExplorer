@@ -94,7 +94,7 @@
     <script id="now-playing-template" type="text/x-handlebars-template">
       <div data-id="{{_id}}" class="isNowPlaying song">
         <iframe
-          src="https://open.spotify.com/embed/track/{{spotifyId}}"
+        src="{{#if spotifyId}}https://open.spotify.com/embed/track/{{spotifyId}}{{else}}https://www.youtube.com/embed/{{youtubeId}}{{/if}}"
           width="200"
           height="300"
           frameborder="0"
