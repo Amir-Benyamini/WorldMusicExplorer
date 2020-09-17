@@ -17,11 +17,19 @@
     <title>World Music Explorer</title>
   </head>
   <body>
+    <div id="loader-container" class="hidden">
+      <div id="overlay">
+        <div class="loader"></div>
+        <h3>Loading...
+        </h3>
+        <h4>this might take a few seconds</h4>
+        <video playsinline autoplay muted loop poster="" id="bgvid">
+          <source src="/assets/map-loading.webm" type="video/webm" />
+        </video>
+      </div>
+    </div>
     <video playsinline autoplay muted loop poster="" id="bgvid">
-      <source
-        src="/assets/coverr-moving-shot-of-a-map-of-the-netherlands-1583225541850.webm"
-        type="video/webm"
-      />
+      <source src="/assets/map-background.webm" type="video/webm" />
     </video>
     <div id="container">
       <div id="search" class="layout">
