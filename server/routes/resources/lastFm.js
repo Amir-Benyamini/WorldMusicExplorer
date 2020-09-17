@@ -39,6 +39,7 @@ const getExternalAppIds = async function (tracks) {
 const getLastFmTrackData = async function (artist, songsLimit = 1) {
   const tracks = []
   let queryArtistName = artist["name"].toLowerCase().replace(" ", "%20")
+  try{
   const response = await axios.get(
     `http://ws.audioscrobbler.com/2.0/?method=artist.gettoptracks&artist=${queryArtistName}&api_key=${lastFmApiKey}&format=json&limit=${songsLimit}`
   )
@@ -58,6 +59,7 @@ const getLastFmTrackData = async function (artist, songsLimit = 1) {
     }
     return tracks
   }
+}catch(err){console.log(err)}
 }
 
 const getTopTracksOfArtist = async function (artists, songslimit) {
