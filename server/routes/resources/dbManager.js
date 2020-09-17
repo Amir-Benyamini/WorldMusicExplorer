@@ -87,6 +87,7 @@ class DBManager {
     })
     this.db.song.findOneAndDelete({ _id: songId }).exec((err) => {
       err ? console.log(err) : null
+      return {}
     })
   }
   async getArtistByCountry(country) {
