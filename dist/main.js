@@ -59,3 +59,7 @@ $('#next').on('click', async function () {
 	manager.nextSong()
 	renderer.renderSongs(manager.songs)
 })
+$('#previous').on('click', async function () {
+	manager.prevSong()
+	renderer.renderSongs(manager.songs)
+})
