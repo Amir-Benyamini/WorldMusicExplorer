@@ -131,10 +131,15 @@ class MusicManager {
     for (let song of this.songs) {
       if (song.isNowPlaying) {
         song.isNowPlaying = false
-        const songIndex = this.songs.indexOf(song)
-        const nextSongIndex = songIndex + 1
-        const nextSong = this.songs[nextSongIndex]
-        nextSong.isNowPlaying = true
+				let songIndex = this.songs.indexOf(song)
+				if(songIndex === this.songs.length -1){
+					songIndex = 0
+					this.songs[0].isNowPlaying = true
+				} else{
+					const nextSongIndex = songIndex + 1
+        	const nextSong = this.songs[nextSongIndex]
+        	nextSong.isNowPlaying = true
+				}
         break
       }
     }
@@ -143,10 +148,16 @@ class MusicManager {
     for (let song of this.songs) {
       if (song.isNowPlaying) {
         song.isNowPlaying = false
-        const songIndex = this.songs.indexOf(song)
-        const prevSongIndex = songIndex - 1
-        const prevSong = this.songs[prevSongIndex]
-        prevSong.isNowPlaying = true
+				let songIndex = this.songs.indexOf(song)
+				if(songIndex === 0){
+					songIndex = this.songs.length -1
+					this.songs[songIndex].isNowPlaying = true
+				}else{
+					const prevSongIndex = songIndex - 1
+					const prevSong = this.songs[prevSongIndex]
+					prevSong.isNowPlaying = true
+				}
+        
         break
       }
     }
